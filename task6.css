@@ -27,7 +27,7 @@ body {
     display: inline-block;
     font-size: 0;
     background: #55a8b3;
-    border-radius: 10px;
+    border-radius: .05rem;
     margin: .05rem 0;
     width: 1.43rem;
 
@@ -51,7 +51,7 @@ body {
     border: none;
     outline: none;
     background: white;
-    border-radius: 10px;
+    border-radius: .05rem;
 }
 
 .header-button-img {
