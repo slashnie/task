@@ -150,7 +150,7 @@ body {
     width: .12rem;
     font-size: 0;
     margin-right: .07rem;
-    /*vertical-align: text-bottom;*/
+ 
 }
 
 .main-container-row2-left {
@@ -203,7 +203,7 @@ body {
     left: -.115rem;
     width: .46rem;
     height: .4rem;
-    background: url(sprite6.png);
+    background: url(https://slashnie.github.io/task/sprite6.png);
     background-position: -1.78rem 0;
     -webkit-transform: scale(.5);
 
