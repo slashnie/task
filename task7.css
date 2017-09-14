@@ -1,0 +1,109 @@
+html{
+    font-size:100px;
+}
+body{
+    margin:0;
+    padding:0;
+    background:#f0f0f0 ;
+}
+.header{
+    position:fixed;
+    top:0;
+    height:.44rem;
+    width:100%;
+   background:#29bde0;
+}
+.header-img{
+    width:.17rem;
+    position:absolute;
+    left:.11rem;
+    bottom: .11rem;
+    cursor:pointer;
+}
+.last-game{
+    position:relative;
+    margin:.57rem .15rem .13rem .15rem;
+    padding:.21rem 0;
+    font-size:.19rem;
+    color:#9a9a9a;
+    text-align:center;
+    background:white;
+}
+.last-game-img{
+    width:.12rem;
+    position: absolute;
+    top: 50%;
+    right:.07rem;
+    transform: translate(0,-50%);
+    cursor:pointer;
+}
+
+.main{
+    position: relative;
+  margin:0 .135rem .3rem .135rem;
+  background: white;
+  text-align: center;
+}
+.main-button-paging{
+    position: absolute;
+    bottom:1.71rem;
+    right:.06rem;
+    width: 0;
+    height: 0;
+    border-top: .14rem solid transparent;
+    border-left: .14rem solid #fbb435;
+    border-bottom: .14rem solid transparent;
+}
+
+.main-header{
+    font-size: .19rem;
+    color:#fbb435;
+    text-align: center;
+    padding:.18rem 0 .07rem 0;
+    border-bottom: .01rem solid #fbb435;
+}
+.header-version{
+    margin:.11rem .26rem;
+    color:white;
+    background:#29bde0;
+    border: .01rem solid #dcf4fa;
+    text-align: center;
+    font-size: .16rem;
+    padding:.21rem 0;
+}
+.mian-link{
+    text-decoration: none;
+    color:white;
+}
+.main-link:link{
+    color:white;
+}
+.main-user-statistics{
+    font-size: .12rem;
+    text-align: center;
+    margin:0 .26rem;
+
+}
+.circle-parent{
+
+}
+.blue-circle {
+    display:inline-block;
+    width: .08rem;
+    height: .08rem;
+    background:#29bde0;
+    -moz-border-radius: .04rem;
+    -webkit-border-radius: .04rem;
+    border-radius:.04rem;
+
+}
+.gray-circle{
+    display:inline-block;
+    width: .08rem;
+    height: .08rem;
+    background:#f0f0f0;
+    -moz-border-radius: .04rem;
+    -webkit-border-radius: .04rem;
+    border-radius:.04rem;
+}
+

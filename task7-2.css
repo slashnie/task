@@ -1,0 +1,128 @@
+html{
+    font-size: 100px;
+}
+*{
+    margin:0 ;
+    padding:0;
+}
+p{
+    margin:0;
+}
+body{
+    font-size: 16px;
+    background: #29bde0;
+}
+.header{
+    display:flex;
+    height: .44rem;
+   justify-content:space-between;
+    align-items: center;
+    font-size: .19rem;
+    color:white;
+}
+.header-img-left{
+    margin-left:.12rem;
+    width:.2rem;
+}
+.header-img-right{
+margin-right:.12rem;
+    width:.18rem;
+}
+.vote{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    text-indent:7vw;
+    background: #b9e9f5;
+    font-size: .15rem;
+    line-height:.41rem;
+}
+.vote-img{
+    width:.26rem;
+    margin-right: .12rem;
+}
+.main{
+    background:#29bde0 ;
+    margin-bottom: .95rem;
+}
+.main-top-img{
+    float:left;
+    margin-left:9vw;
+}
+.main-header{
+    height:.7rem;
+    font-size: .14rem;
+    color:white;
+    padding: .2rem 0 .3rem 10vw;
+}
+.main-box{
+
+    display:flex;
+    justify-content: space-around;
+}
+.main-block{
+    background:#29bde0 ;
+    width:20%;
+    height:31vw;
+}
+.main-block:hover .main-block-hidden{
+  opacity:1;
+}
+.main-block-visible{
+    height:19vw;
+    width:19vw;
+    box-sizing:content-box;
+    border: .5vw solid white;
+
+}
+.main-block-visible-identify{
+   line-height:13vw;
+    width:100%;
+    text-align: center;
+    font-size: .2rem;
+    background-color: #f5c97b;
+    color:black;
+
+}
+.main-block-visible-number{
+    line-height: 6vw;
+    font-size: .15rem;
+    background: #83b09a;
+    color:white;
+    text-align: center;
+}
+.main-block-hidden{
+    width:100%;
+    height: 11vw;
+    background: #29bde0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity:0;
+}
+.main-block-hidden-img{
+    width:4.5vw;
+    cursor:pointer;
+}
+.footer{
+   position:fixed;
+    /*width:88%;*/
+    left:6.4%;
+    right:6.4%;
+    bottom:0;
+    border-top: .02rem solid white;
+    height:.95rem;
+    background:  #29bde0;
+    text-align: center;
+}
+.footer-a{
+    display:inline-block;
+    width:80%;
+    background: #fbb434;
+    line-height: .44rem;
+    text-align: center;
+   margin:.2rem auto .3rem auto;
+    font-size: .25rem;
+    color:white;
+
+}
