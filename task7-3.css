@@ -43,6 +43,7 @@ body{
 .main-img{
     padding-top: .11rem;
     width:2.5rem;
+    max-width: 100%;
 }
 .main-header-congratulation{
     color:#ffc865;

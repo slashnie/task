@@ -71,11 +71,8 @@ body{
     font-size: .16rem;
     padding:.21rem 0;
 }
-.mian-link{
+a,a:link,a:visited,a:hover,a:active{
     text-decoration: none;
-    color:white;
-}
-.main-link:link{
     color:white;
 }
 .main-user-statistics{

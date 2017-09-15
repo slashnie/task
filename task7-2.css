@@ -12,6 +12,10 @@ body{
     font-size: 16px;
     background: #29bde0;
 }
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
 .header{
     width:100%;
     position:fixed;
@@ -103,7 +107,7 @@ margin-right:.12rem;
 
 }
 .main-block-visible-number{
-    line-height: 6vw;
+    line-height: 6.2vw;
     font-size: .15rem;
     background: #83b09a;
     color:white;
@@ -124,16 +128,15 @@ margin-right:.12rem;
 }
 .footer{
    position:fixed;
-    /*width:88%;*/
-    left:6.2%;
-    right:6.2%;
+    left:6.65%;
+    right:6.48%;
     bottom:0;
     border-top: .02rem solid white;
     height:.95rem;
     background:  #29bde0;
     text-align: center;
 }
-.footer-a{
+.footer-vote{
     display:inline-block;
     width:80%;
     background: #fbb434;
@@ -143,5 +146,4 @@ margin-right:.12rem;
     font-size: .25rem;
     color:white;
     text-decoration:none;
-
 }
