@@ -92,6 +92,7 @@ a,a:link,a:visited,a:hover,a:active{
     -moz-border-radius: .04rem;
     -webkit-border-radius: .04rem;
     border-radius:.04rem;
+    cursor:pointer;
 
 }
 .gray-circle{
@@ -102,5 +103,6 @@ a,a:link,a:visited,a:hover,a:active{
     -moz-border-radius: .04rem;
     -webkit-border-radius: .04rem;
     border-radius:.04rem;
+    cursor:pointer;
 }
 
