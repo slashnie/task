@@ -45,9 +45,14 @@ body{
     width:2.5rem;
     max-width: 100%;
 }
+.main-header-congratulation-wrap{
+    text-align: center;
+}
 .main-header-congratulation{
     color:#ffc865;
     font-size:.2rem;
+    text-align:left;
+    display:inline-block;
 }
 ul{
     padding:.3rem 0 .15rem 0;
