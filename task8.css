@@ -1,0 +1,28 @@
+html{
+    font-size:625%;
+}
+body{
+    font-size: 16px;
+    color:#ffffff;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.header{
+
+}
+.h{
+    line-height: .2rem;
+    font-size:.07rem;
+    color:#29b078;
+    background: #ffffff;
+
+}
+.nav{
+    line-height: .5rem;
+    background:#29b078;
+}
+.header{
+
+}
