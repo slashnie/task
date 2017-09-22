@@ -5,7 +5,7 @@ html {
 body {
     font-size: 16px;
     color: #999999;
-    background: #fafafa;
+    background: #ffffff;
 }
 a {
     text-decoration: none!important;
@@ -23,7 +23,6 @@ a {
     font-size: .07rem;
     color: #29b078;
     background: #ffffff;
-    padding: 0 14%;
 }
 
 .header-top-img {
@@ -43,7 +42,10 @@ a {
     margin: 0;
     width: 100%;
 }
-
+.container-wrap{
+    margin-left:-.15rem;
+    margin-right:-.15rem;
+}
 #ul-wrap {
     padding: 0;
     margin-left: -.15rem;
@@ -61,7 +63,13 @@ a {
     font-size: .16rem;
 
 }
-
+.nav-a-homepage{
+    text-align: center;
+    text-decoration: none;
+    border-top: solid 1px  #999999;
+    border-bottom: solid 1px transparent;
+    color: white !important;
+}
 .nav-a {
     text-align: center;
     text-decoration: none;
@@ -341,30 +349,34 @@ text-align: center;
         font-size: .14rem;
         color: #29b078;
         background: #ffffff;
-        padding: 0 14%;
     }
 
     .header-top-img {
         margin-left: 0.14rem;
         width: 0.32rem;
     }
-
+    .container-wrap{
+        padding:auto;
+    }
     .nav {
         height: 1rem;
         background: #29b078;
         border: 0;
     }
-
+.nav-header{
+    padding:0;
+}
+    .container-wrap{
+        margin:auto;
+    }
     .nav-img {
         float: left;
         height: .6rem;
-        padding-left: 10%;
         margin-top: .2rem;
     }
 
     .nav-ul {
         float: right;
-        margin-right: 10%;
         border: 0;
     }
 

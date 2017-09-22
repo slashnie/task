@@ -20,7 +20,6 @@ body {
     font-size: .07rem;
     color: #29b078;
     background: #ffffff;
-    padding: 0 14%;
 }
 
 .header-top-img {
@@ -40,7 +39,10 @@ body {
     margin: 0;
     width: 100%;
 }
-
+.container-wrap{
+    margin-left:-.15rem;
+    margin-right:-.15rem;
+}
 #ul-wrap {
     padding: 0;
     margin-left: -.15rem;
@@ -121,6 +123,7 @@ div#carousel-example-generic {
 .main-row1-p {
     padding: 0.05rem 0 0.1rem;
     margin: 0;
+    text-align: left;
 }
 
 .main-row1-img {
@@ -184,7 +187,7 @@ div#carousel-example-generic {
 
 .main-row2-p {
     font-size: .14rem;
-    text-align: left;
+    text-align: justify;
     padding:0 .6rem ;
     margin: 0;
 }
@@ -227,7 +230,7 @@ div#carousel-example-generic {
 }
 
  .main-row3-bottom {
-     text-align: left;
+     text-align: justify;
      padding:.15rem;
      color: #999999;
      background: white;
@@ -382,21 +385,21 @@ div#carousel-example-generic {
 }
 @media screen and (min-width: 768px) {
     .header-top {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         height: .4rem;
         font-size: .14rem;
-        color: #29b078;
-        background: #ffffff;
-        padding: 0 14%;
     }
 
     .header-top-img {
         margin-left: 0.14rem;
         width: 0.32rem;
     }
+    .nav-header{
+        padding:0;
+    }
 
+.container-wrap{
+   margin:auto;
+}
     .nav {
         height: 1rem;
         background: #29b078;
@@ -406,13 +409,11 @@ div#carousel-example-generic {
     .nav-img {
         float: left;
         height: .6rem;
-        padding-left: 10%;
         margin-top: .2rem;
     }
 
     .nav-ul {
         float: right;
-        margin-right: 10%;
         border: 0;
     }
 
