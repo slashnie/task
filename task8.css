@@ -443,6 +443,9 @@ div#carousel-example-generic {
 
 }
 @media screen and (max-width: 768px){
+    .main-row1-p{
+        text-align: center;
+    }
     .main-row4-column{
         width:98%;
         margin:0 1%;
