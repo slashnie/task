@@ -66,10 +66,9 @@ a{
 .nav-a-homepage{
     text-align: center;
     text-decoration: none;
-    border-top: solid 1px transparent;
-    border-bottom: solid 1px transparent;
+    border-top: solid 2px transparent;
+    border-bottom: solid 2px transparent;
     color: white !important;
-    border-top:1px solid  #e6e6e6;
 }
 .nav-a {
     text-align: center;
@@ -179,7 +178,7 @@ a{
     font-size: .14rem;
 }
 .main-row-right-sup{
-    display:flex;
+    display:flex; display:-webkit-flex;
     justify-content: space-between;
     align-items: center;
     padding:.15rem .6rem;

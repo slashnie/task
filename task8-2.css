@@ -66,8 +66,8 @@ a {
 .nav-a-homepage{
     text-align: center;
     text-decoration: none;
-    border-top: solid 1px  #999999;
-    border-bottom: solid 1px transparent;
+    border-top: solid 2px  transparent;
+    border-bottom: solid 2px transparent;
     color: white !important;
 }
 .nav-a {
@@ -143,19 +143,24 @@ a {
     position:absolute;
     top:0;
     left:0;
-    display:flex;
+    display:flex; display:-webkit-flex;
     justify-content: center;
     align-items: center;
     width:100%;
     height:100%;
     box-sizing: content-box;
-
     color:white;
     font-size: .16rem;
     font-weight: bold;
     background: black;
     opacity:0;
 }
+/*.main-ios:hover{*/
+    /*opacity:0.8;*/
+    /*transform:rotate(360deg) ;*/
+    /*transition:1s;*/
+
+/*}*/
 @keyframes main-ios{
     from {
         opacity: 0;
@@ -200,7 +205,7 @@ text-align: center;
     font-weight: bold;
 }
 .main-profession-introduce-top{
-    display:flex;
+    display:flex; display:-webkit-flex;
     justify-content: space-between;
     align-items: center;
     min-height:1.76rem;
@@ -220,7 +225,7 @@ text-align: center;
     border-bottom:0 solid  #edf1f2;
 }
 .main-profession-introduce-header div{
-    display:flex;
+    display:flex; display:-webkit-flex;
     align-items: center;
     min-height:.4rem;
     width:50%;
@@ -240,7 +245,7 @@ text-align: center;
     color:  #999999;
 }
 .main-profession-introduce-middle .left{
-    display:flex;
+    display:flex; display:-webkit-flex;
     justify-content: center;
     align-items: center;
     height:1.2rem;
@@ -248,7 +253,7 @@ text-align: center;
 
 }
 .main-profession-introduce-middle div{
-    display:flex;
+    display:flex; display:-webkit-flex;
     justify-content:space-between;
     align-items: center;
     color:black;
@@ -259,7 +264,7 @@ text-align: center;
     border-bottom:1px solid  #edf1f2;
 }
 .main-profession-introduce-footer div{
-    display:flex;
+    display:flex; display:-webkit-flex;
     align-items: center;
     min-height:.4rem;
     padding-left:.1rem;

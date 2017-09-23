@@ -91,8 +91,10 @@ body {
 }
 
 .header-img {
-    position: relative;
-    top: 42%;
+    position:absolute;
+    left:50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
     width: .2rem;
 }
 div#carousel-example-generic {
@@ -123,9 +125,12 @@ div#carousel-example-generic {
 .main-row1-p {
     padding: 0.05rem 0 0.1rem;
     margin: 0;
-    text-align: left;
+    text-align: center;
 }
-
+.main-row1-span{
+    text-align: left;
+    display:inline-block;
+}
 .main-row1-img {
     display: flex;
     align-items: flex-end;
@@ -271,7 +276,7 @@ div#carousel-example-generic {
 }
 .main-row4-column{
     float:left;
-    display:flex;
+    display:flex; display:-webkit-flex;
     justify-content: center;
     align-items: center;
     width:19%;
@@ -443,8 +448,9 @@ div#carousel-example-generic {
 
 }
 @media screen and (max-width: 768px){
-    .main-row1-p{
-        text-align: center;
+
+    .main-row1-column-last {
+        border-left:0;
     }
     .main-row4-column{
         width:98%;
