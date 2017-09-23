@@ -66,8 +66,8 @@ a{
 .nav-a-homepage{
     text-align: center;
     text-decoration: none;
-    border-top: solid 2px transparent;
-    border-bottom: solid 2px transparent;
+    border-top: solid 1px white;
+    border-bottom: solid 1px transparent;
     color: white !important;
 }
 .nav-a {
