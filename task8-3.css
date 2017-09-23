@@ -50,7 +50,6 @@ a{
     margin-left: -.15rem;
     margin-right: -.15rem;
     font-size: 0;
-    border:none;
 }
 
 .nav-img {
@@ -66,8 +65,8 @@ a{
 .nav-a-homepage{
     text-align: center;
     text-decoration: none;
-    border-top: solid 1px white;
-    border-bottom: solid 1px transparent;
+    border-top: solid 2px  transparent;
+    border-bottom: solid 2px transparent;
     color: white !important;
 }
 .nav-a {
