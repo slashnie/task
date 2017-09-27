@@ -299,21 +299,22 @@ a{
 
     .nav-a {
         height: 1rem;
-        margin: 0;
-        border-top: solid 2px transparent;
-        border-bottom: solid 2px transparent;
-        color: white !important;
+        border-top: solid 4px transparent;
+        border-bottom: solid 4px transparent;
     }
-
+    .nav-a-homepage{
+        height: 1rem;
+        border-top: solid 4px transparent;
+        border-bottom: solid 4px transparent;
+    }
     .nav-recommend {
         height: 1rem;
-        color: white !important;
-        border-top: solid 2px transparent;
-        border-bottom: solid 2px white;
+        border-top: solid 4px transparent;
+        border-bottom: solid 4px white;
     }
 
     .nav-ul a:hover {
-        border-bottom: solid 2px white;
+        border-bottom: solid 4px white;
     }
 
 }

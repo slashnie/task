@@ -69,8 +69,8 @@ main{
 .nav-a-homepage{
     text-align: center;
     text-decoration: none;
-    border-top: solid 2px  transparent;
-    border-bottom: solid 2px transparent;
+    border-top: solid 1px  transparent;
+    border-bottom: solid 1px transparent;
     color: white !important;
 }
 .nav-a {
@@ -378,7 +378,6 @@ text-align: center;
         color: #29b078;
         background: #ffffff;
     }
-
     .header-top-img {
         margin-left: 0.14rem;
         width: 0.32rem;
@@ -391,7 +390,7 @@ text-align: center;
         background: #29b078;
         border: 0;
     }
-.nav-header{
+    .nav-header{
     padding:0;
 }
     .container-wrap{
@@ -415,20 +414,27 @@ text-align: center;
     .nav-a {
         height: 1rem;
         margin: 0;
-        border-top: solid 2px transparent;
-        border-bottom: solid 2px transparent;
+        border-top: solid 4px transparent;
+        border-bottom: solid 4px transparent;
         color: white !important;
     }
-
+    .nav-a-homepage{
+        height: 1rem;
+        border-top: solid 4px transparent;
+        border-bottom: solid 4px transparent;
+    }
     .nav-profession {
         height: 1rem;
         color: white !important;
-        border-top: solid 2px transparent;
-        border-bottom: solid 2px white;
+        border-top: solid 4px transparent;
+        border-bottom: solid 4px white;
     }
 
     .nav-ul a:hover {
-        border-bottom: solid 2px white;
+        border-bottom: solid 4px white;
+    }
+    .nav-a-homepage:hover{
+        border-bottom: solid 4px white;
     }
 
 }
