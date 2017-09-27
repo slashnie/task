@@ -170,7 +170,7 @@ a{
 .main-row-left-wrap:hover .main-row-left-circle{
     background:#f9a372;
 }
-.main-row-left-wrap:hover a{
+.main-row-left-wrap:hover span{
     color:#f9a372;
 }
 .main-row-right{
@@ -229,9 +229,7 @@ a{
     border-bottom: 1px solid transparent;
     text-decoration:none;
 }
-.footer-middle .footer-middle-active{
-    border-bottom: 1px solid white;
-}
+
 .footer-middle-website{
     font-size: .16rem;
 }
