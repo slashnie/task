@@ -1,0 +1,265 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 625%;
+    background-color: #fff;
+}
+
+body {
+    font-size: 16px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: .44rem;
+    background: #5fc0cd;
+    text-align: center;
+    z-index: 1;
+}
+
+.header-button-parent {
+    display: inline-block;
+    font-size: 0;
+    background: #55a8b3;
+    border-radius: .05rem;
+    margin: .05rem 0 .05rem 0;
+    width: 1.43rem;
+
+}
+
+.header-button-employer {
+    font-size: .17rem;
+    color: white;
+    width: .715rem;
+    padding: .05rem 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.header-button-employment {
+    font-size: .17rem;
+    color: #5fc0cd;
+    width: .715rem;
+    padding: .05rem 0;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: .05rem;
+}
+
+.header-button-img {
+    border: none;
+    outline: none;
+
+}
+
+.header-img-parent {
+    position: absolute;
+    top: 50%;
+    right: .15rem;
+    transform: translate(0, -50%);
+    width: .21rem;
+}
+
+.header-img {
+    width: .21rem;
+    background: red;
+}
+
+.main {
+    position: absolute;
+    top: .44rem;
+    width: 100%;
+
+}
+
+.main-select-box {
+    display: flex;
+    padding-right: 8px;
+    font-size: .14rem;
+    border-bottom: 1px solid #e1e5e7;
+}
+
+.main-button-parent {
+    font-size: .14rem;
+    flex: 1;
+    display: inline-block;
+    position: relative;
+    background: white;
+    border: none;
+    text-align: center;
+    border-right: 1px solid transparent;
+    border-image: -webkit-linear-gradient(top, #fff, #aaa, #fff) 1 1;
+
+}
+
+.main-button-style {
+    background: white;
+    width: 100%;
+    border: 0;
+    padding: .1rem 0;
+    color: #999999;
+    outline: none;
+}
+
+.main-caret-position {
+    position: absolute;
+    top: 50%;
+    right: .1rem;
+    transform: translate(0, -50%);
+}
+
+.main-ul-style {
+    width: 100%;
+    min-width: 0;
+}
+
+.main-li-style {
+    width: 100%;
+    text-align: center;
+}
+
+.main-container-parent {
+    border-bottom: solid 1px #e1e5e7;
+    padding: 0.15rem;
+    font-size: .14rem;
+    color: #999999;
+}
+
+.main-last-container-parent {
+    border-bottom: solid 1px #e1e5e7;
+    padding: 0.15rem 0.15rem 0.65rem 0.15rem;
+    font-size: .14rem;
+    color: #999999;
+
+}
+
+.main-container-row {
+    padding: 0;
+    min-width: 280px;
+}
+
+.main-container-row1-img {
+    width: .12rem;
+    font-size: 0;
+    margin-right: .07rem;
+ 
+}
+
+.main-container-row2-left {
+    margin-left: .22rem;
+    color: black;
+}
+
+.main-container-row2-right {
+    font-size: .15rem;
+    float: right;
+    vertical-align: middle;
+    color: red;
+}
+
+.main-container-row2-img {
+    width: .09rem;
+    margin-left: .11rem;
+    cursor: pointer;
+}
+
+.main-container-row3-span {
+    font-size: .14rem;
+    margin-right: .05rem;
+    color: #dadcdd;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: .5rem;
+    background: #f8fafb;
+}
+
+.footer-home {
+    position: relative;
+    margin: .06rem 0 .07rem 25%;
+    width: .24rem;
+    height: .37rem;
+    font-size: .1rem;
+    color: #5fc0cd;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.footer-home-img {
+    position: absolute;
+    top: -.1rem;
+    left: -.115rem;
+    width: .46rem;
+    height: .4rem;
+    background: url(https://slashnie.github.io/task/sprite6.png);
+    background-position: -1.78rem 0;
+    -webkit-transform: scale(.5);
+
+}
+
+.footer-button-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: .24rem;
+    line-height: .1rem;
+}
+
+.footer-edit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    /*margin:.06rem 0 .07rem 25%;*/
+    /*width:.24rem;*/
+    /*height:.37rem;*/
+    /*font-size: .1rem;*/
+    color: #5fc0cd;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.footer-edit-img {
+    width: .47rem;
+    height: .47rem;
+}
+
+.footer-people {
+    position: relative;
+    float: right;
+    margin: .06rem 25% .07rem 0;
+    width: .24rem;
+    height: .4rem;
+    font-size: .12rem;
+    color: #5fc0cd;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.footer-people-img {
+    position: absolute;
+    top: 0;
+}
+
+.footer-people-text {
+    color: #999999;
+    position: absolute;
+    font-size: .12rem;
+    left: 0;
+    bottom: 0;
+}
+
