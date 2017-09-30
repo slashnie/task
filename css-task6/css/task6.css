@@ -203,7 +203,7 @@ body {
     left: -.115rem;
     width: .46rem;
     height: .4rem;
-    background: url(http://localhost:63342/git/task/css-task6/images/sprite6.png);
+    background: url(../images/sprite6.png);
     background-position: -1.78rem 0;
     -webkit-transform: scale(.5);
 
