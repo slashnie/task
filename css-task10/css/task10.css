@@ -173,9 +173,6 @@ nav{
     background: #fbfcff;
     border:1px solid #e7e7e7;
 }
-.main-header input{
-   width:.16rem;
-}
 .main-herder-select{
     height:.45rem;
     line-height: .45rem;
@@ -202,13 +199,7 @@ nav{
     }
 }
 .label-wrap input[type="radio"]{
-    position:absolute;
-    left:0;
-    top:50%;
-    transform:translateY(-50%);
-    width:.18rem;
-    height:.18rem;
-    margin:0;
+    display:none;
 }
 label span{
     display:inline-block;
@@ -219,12 +210,11 @@ label span{
     width:.18rem;
     height:.18rem;
     border-radius:50%;
-    border:.07rem solid  #1d7ad9;
+    border:1px solid  #d7d7d7;
     background: #f8f9fb;
-    z-index:-1;
 }
 input[type="radio"]:checked+span{
-   z-index:1000;
+    border:.07rem solid #1d7ad9;
 }
 .main-header-dropdown{
     display:inline-block;
