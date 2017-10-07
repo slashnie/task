@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 625%;
+}
+body {
+    font-size: 16px;
+    background: #eff0f4;
+}
+.position {
+    display: flex;
+    align-items: center;
+}
+.input-style {
+    border: none;
+    outline: none;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: .44rem;
+    padding: 0 .1rem;
+    margin-bottom: .08rem;
+    color: #ffffff;
+    background: #5fc0cd;
+}
+header span {
+    cursor: pointer;
+}
+header .span-center {
+    font-size: .18rem;
+}
+main {
+    margin-bottom: .28rem;
+}
+main .input-wrap {
+    display: flex;
+    align-items: center;
+    height: .5rem;
+    margin-bottom: 0.07rem;
+    background: #ffffff;
+}
+main .input-wrap .img {
+    width: .14rem;
+    margin-left: .2rem;
+}
+main .input-wrap .line {
+    width: .01rem;
+    height: .25rem;
+    margin: 0 .15rem 0 .23rem;
+    background: #eff0f4;
+}
+main .input-wrap .main-input {
+    border: none;
+    outline: none;
+}
+footer {
+    text-align: right;
+}
+footer .submit {
+    height: .5rem;
+    line-height:.5rem;
+    margin-bottom: 0.07rem;
+    font-size: .18rem;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background: #5fc0cd;
+}
+footer .submit input {
+    border: none;
+    outline: none;
+}
+footer a {
+    padding-right: .15rem;
+    text-decoration: none;
+    color: #5fc0cd;
+}

@@ -1,0 +1,85 @@
+@input-color: #eff0f4;
+@color: #fff;
+@background: #eff0f4;
+@blue: #5fc0cd;
+@input-background: #fff;
+*{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size: 625%;
+}
+body{
+  font-size: 16px;
+  background:@background ;
+}
+.position {
+  display: flex;
+  align-items: center;
+}
+
+.input-style {
+  border: none;
+  outline: none;
+}
+
+header {
+  .position;
+  justify-content: space-between;
+  height: .44rem;
+  padding: 0 .1rem;
+  margin-bottom: .08rem;
+  color: @color;
+  background: @blue;
+  span{
+    cursor:pointer;
+  }
+  .span-center{
+   font-size: .18rem;
+  }
+}
+
+main {
+  margin-bottom: .28rem;
+  .input-wrap {
+    .position;
+    height: .5rem;
+    margin-bottom: 0.07rem;
+    background: @input-background;
+    .img {
+      width: .14rem;
+      margin-left: .2rem;
+    }
+    .line {
+      width: .01rem;
+      height: .25rem;
+      margin: 0 .15rem 0 .23rem;
+      background: #eff0f4;
+    }
+    .main-input {
+      .input-style;
+    }
+  }
+}
+  footer {
+    text-align: right;
+    .submit {
+      height:.5rem;
+      line-height:.5rem;
+      margin-bottom: 0.07rem;
+      font-size: .18rem;
+      text-align: center;
+      cursor: pointer;
+      color: white;
+      background: @blue ;
+      input{
+        .input-style;
+      }
+    }
+    a{
+      padding-right:.15rem;
+      text-decoration: none;
+      color:@blue;
+    }
+  }
