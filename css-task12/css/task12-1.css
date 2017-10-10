@@ -77,8 +77,8 @@ main .main-header .p3 span {
   padding-left: .075rem;
 }
 main .main-header .p3 img {
-  width: .085rem;
-  height: .09rem;
+  width: .09rem;
+  height: .1rem;
 }
 main .main-content .string-gray {
   width: .012rem;
@@ -147,15 +147,17 @@ footer div {
   text-align: center;
   border-radius: .05rem;
 }
-footer .left {
+footer .message {
   margin: 0 .06rem .2rem .18rem;
   line-height: .5rem;
+  color: #5fc0cd;
   box-sizing: border-box;
   border: 1px solid #5fc0cd;
 }
-footer .right {
+footer .telephone {
   margin: 0 .18rem .2rem .06rem;
   line-height: .5rem;
+  color: white;
   background: #5fc0cd;
 }
 /*# sourceMappingURL=task12-1.css.map */
