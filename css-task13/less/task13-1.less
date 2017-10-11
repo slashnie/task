@@ -1,0 +1,107 @@
+html {
+  font-size: 625%;
+}
+
+body {
+  font-size: 16px;
+  background-color: #f0f0f0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@yellow: #fbb435;
+@version: #69d1e9;
+@gray: #9a9a9a;
+@white: #fff;
+@header: #29bde0;
+@border: #c9c9c9;
+header {
+  position: relative;
+  height: .44rem;
+  background: @header;
+  img {
+    position: absolute;
+    left: .11rem;
+    bottom: .11rem;
+    width: .17rem;
+    cursor: pointer;
+  }
+}
+
+main {
+  margin: .135rem .175rem .3rem;
+  .last-game {
+    position: relative;
+    text-align: center;
+    height: .68rem;
+    line-height: .68rem;
+    font-size: .17rem;
+    color: @gray;
+    margin-bottom: .165rem;
+    border: 1px solid @border;
+    background: @white;
+    img {
+      position: absolute;
+      right: .07rem;
+      top: .24rem;
+      width: .12rem;
+    }
+  }
+  .content {
+    position:relative;
+    border: 1px solid @border;
+    background: @white;
+    .slayer-game {
+      height: .45rem;
+      line-height: .45rem;
+      color: @yellow;
+      font-size: .189rem;
+      text-align: center;
+      border-bottom: 2px solid @yellow;
+    }
+    .version {
+      height: .66rem;
+      line-height: .66rem;
+      color: @white;
+      text-align: center;
+      margin: .11rem .26rem;
+      background: @version;
+    }
+    p {
+      font-size: .12rem;
+      color: @gray;
+      text-align: center;
+      margin: 0;
+    }
+    .circle-wrap{
+      text-align: center;
+    }
+    .circle{
+      display: inline-block;
+      width: .08rem;
+      height: .08rem;
+      background:@border;
+      -moz-border-radius: .04rem;
+      -webkit-border-radius: .04rem;
+      border-radius: .04rem;
+      cursor: pointer;
+    }
+    .circle:hover{
+      background: @version;
+    }
+    .icon{
+      position: absolute;
+      bottom: 1.7rem;
+      right: .06rem;
+      width: 0;
+      height: 0;
+      border-top: .14rem solid transparent;
+      border-left: .14rem solid #fbb435;
+      border-bottom: .14rem solid transparent;
+      cursor: pointer;
+    }
+  }
+}

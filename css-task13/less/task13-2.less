@@ -1,0 +1,180 @@
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+  background: @background;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@background: #29bde0;
+@vote: #b9e9f5;
+@yellow: #fbb435;
+@gray: #464646;
+@number: #83b09a;
+@identify: #f5c97b;
+@submit: #fbb435;
+.flex {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  align-items: center;
+}
+
+//body起始
+//----------------------------------------------------------------
+header {
+  //nav块的开始
+  .nav {
+    background: @background;
+    .flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: .44rem;
+    font-size: .19rem;
+    .book {
+      width: .2rem;
+      margin-left: .12rem;
+      cursor: pointer;
+    }
+    .cross {
+      width: .18rem;
+      margin-right: .12rem;
+      cursor: pointer;
+    }
+  }
+  //vote块的开始
+  .vote {
+    .flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: .44rem;
+    width: 100%;
+    height: .41rem;
+    line-height: .41rem;
+    font-size: .15rem;
+    color: @gray;
+    background: @vote;
+    span {
+      padding-left: .12rem;
+    }
+    img {
+      width: .26rem;
+      padding-right: .12rem;
+    }
+    //audio类开始
+    .audio-style {
+      position: absolute;
+      right: -262px;
+      display: block;
+      opacity: 0;
+    }
+  }
+  //describe块的开始
+  .describe {
+    position: fixed;
+    left: 0;
+    top: .85rem;
+    height: .5rem;
+    width: 100%;
+    padding: .2rem 0 0 10%;
+    font-size: .14rem;
+    background: @background;
+    //triangle类开始
+    .triangle {
+      top: 0;
+      position: absolute;
+      left: .36rem;
+      width: 0;
+      height: 0;
+      border-top: 13px solid #b9e9f5;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      z-index: 1000;
+    }
+  }
+}
+
+//----------------------------------------------------------------
+main {
+  margin: 1.55rem 0 .95rem 0;
+  //box块的开始
+  .box {
+    .flex;
+    justify-content: space-around;
+    //wrap类的开始
+    .wrap {
+      width: 20%;
+      height: 31vw;
+      .visible {
+        width: 19vw;
+        box-sizing: content-box;
+        border: .5vw solid white;
+        .identify {
+          line-height: 13vw;
+          text-align: center;
+          font-size: .2rem;
+          background-color: @identify;
+          color: @gray;
+        }
+        .number {
+          line-height: 6.2vw;
+          font-size: .15rem;
+          text-align: center;
+          background: @number;
+        }
+      }
+      .hidden {
+        .flex;
+        justify-content: space-between;
+        height: 11vw;
+        opacity: 0;
+        .hidden-img {
+          width: 4.5vw;
+          cursor: pointer;
+        }
+      }
+    }
+    .wrap:hover .hidden {
+      opacity: 1;
+    }
+  }
+}
+
+//----------------------------------------------------------------
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 86.87%;
+  height: .95rem;
+  margin: 0 6.48% 0 6.65%;
+  border-top: .02rem solid white;
+  background: #29bde0;
+  text-align: center;
+  .submit {
+    display: inline-block;
+    width: 80%;
+    line-height: .44rem;
+    font-size: .25rem;
+    color:white;
+    text-align: center;
+    margin-top: .2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: @submit;
+  }
+}
+
