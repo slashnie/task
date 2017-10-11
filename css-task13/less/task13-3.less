@@ -10,17 +10,19 @@ body {
 * {
   margin: 0;
 }
-a{
+
+a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
+
 @header-border: #74d4eb;
 @border: #dddddd;
 @yellow: #fbb435;
 @red: #f66f6f;
 @gray: #a6a6a6;
 @blue: #29bde0;
-@time:#d5d5d5;
+@time: #d5d5d5;
 .flex {
   display: flex;
   display: -webkit-flex;
@@ -58,76 +60,76 @@ main {
     @media screen and (max-width: 400px) {
       padding: 0 3%;
     }
-    img{
+    img {
       width: 100%;
       max-width: 2.5rem;
     }
-   p{
+    p {
+      display: inline-block;
       font-size: .2rem;
-      font-weight:200;
+      font-weight: 200;
       color: #ffc865;
-     text-align:justify;
-     //margin:0;
+      text-align: justify;
     }
-    ul{
-      padding:.3rem 0 .15rem 0;
-      li{
-        line-height:.25rem;
+    ul {
+      padding: .3rem 0 .15rem 0;
+      li {
+        line-height: .25rem;
         font-size: .15rem;
         text-align: justify;
-        list-style:none;
+        list-style: none;
       }
     }
   }
-  .main-result{
+  .main-result {
     padding: 0 13% .1rem;
     font-size: .15rem;
     text-align: justify;
-    color:@gray;
+    color: @gray;
     border-top: 2px solid #dddddd;
     //border-bottom: 1px solid #dddddd;
     @media screen and (max-width: 400px) {
       padding: 0 3%;
     }
-    .day-one{
-      line-height:.36rem;
+    .day-one {
+      line-height: .36rem;
       font-size: .18rem;
-      color:black;
+      color: black;
     }
-    p{
+    p {
       position: relative;
       line-height: .25rem;
-      font-size:.15rem;
+      font-size: .15rem;
     }
-    span{
-      position:absolute;
-      right:0;
+    span {
+      position: absolute;
+      right: 0;
       font-size: .11rem;
-      color:@time;
+      color: @time;
     }
   }
 }
 
-footer{
-  position:fixed;
-  bottom:0;
-  width:100%;
-  height:.65rem;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: .65rem;
   font-size: 0;
   text-align: center;
-  background:rgba(153, 223, 240, .5);
-  div{
-    display:inline-block;
-    height:.43rem;
-    width:40%;
-    margin:.11rem 5%;
+  background: rgba(153, 223, 240, .5);
+  div {
+    display: inline-block;
+    height: .43rem;
+    width: 40%;
+    margin: .11rem 5%;
     font: .2rem/.43rem normal;
-    border-radius:.05rem;
+    border-radius: .05rem;
   }
-  .again{
-background: @red;
+  .again {
+    background: @red;
   }
-.push{
-  background: @yellow;
-}
+  .push {
+    background: @yellow;
+  }
 }

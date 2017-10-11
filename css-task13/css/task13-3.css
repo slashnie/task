@@ -60,6 +60,7 @@ main .main-header img {
   max-width: 2.5rem;
 }
 main .main-header p {
+  display: inline-block;
   font-size: .2rem;
   font-weight: 200;
   color: #ffc865;
