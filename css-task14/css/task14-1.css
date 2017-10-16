@@ -1,0 +1,324 @@
+html {
+  font-size: 625%;
+}
+body {
+  font-size: 16px;
+  background-color: #f0f0f0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  justify-content: center;
+}
+.absolute {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bold {
+  font-weight: bold;
+  color: black;
+  font-size: .18rem;
+}
+.home {
+  border-bottom-color: white;
+}
+.carousel {
+  overflow: hidden;
+  font-size: 0;
+  white-space: nowrap;
+  background: #29b078;
+}
+.carousel img {
+  position: relative;
+  max-width: 100%;
+  animation: first 20s infinite;
+}
+@keyframes first {
+  0% {
+    right: 0;
+  }
+  25% {
+    right: 0;
+  }
+  33% {
+    right: 100%;
+  }
+  58% {
+    right: 100%;
+  }
+  66% {
+    right: 200%;
+  }
+  91% {
+    right: 200%;
+  }
+  100% {
+    right: 300%;
+  }
+}
+main {
+  padding: .8rem 4% .7rem;
+  background: #fafafa;
+}
+main .container {
+  font-size: 0;
+  background: #fafafa;
+  zoom: 1;
+}
+main .container-enterprise {
+  background: #fff;
+}
+main .container:after {
+  content: "";
+  display: block;
+  clear: both;
+  font-size: 0;
+  width: 0;
+}
+main .column {
+  color: #999;
+  float: left;
+}
+@media screen and (min-width: 992px) {
+  main .column {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  main .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .column {
+    width: 100%;
+  }
+}
+main .character {
+  min-height: 2.4rem;
+  padding: 0 .15rem;
+  box-sizing: border-box;
+}
+main .character p {
+  padding: .05rem 0 .1rem 0;
+  font-size: .16rem;
+  text-align: center;
+}
+main .character p span {
+  display: inline-block;
+  text-align: justify;
+}
+main .character .p-bold {
+  font-weight: bold;
+  color: black;
+  font-size: .18rem;
+}
+main .character .p-img {
+  height: .65rem;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+main .character .p-head {
+  color: #29b078;
+  padding: .05rem 0 .05rem 0;
+  font-size: .18rem;
+}
+main .character-number {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 992px) {
+  main .character-number {
+    border-left: 2px dashed #dedede;
+  }
+}
+main .main-p-bold {
+  font-weight: bold;
+  color: black;
+  font-size: .18rem;
+  text-align: center;
+  padding: .2rem 0 .6rem 0;
+}
+main .process {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 1rem;
+}
+main .process p {
+  position: relative;
+  width: 100%;
+  padding: 0 .6rem 0 .7rem;
+  font-size: .14rem;
+  text-align: justify;
+  box-sizing: border-box;
+}
+main .process p span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  display: inline-block;
+  width: .6rem;
+  height: .6rem;
+  line-height: .6rem;
+  color: #29b078;
+  text-align: center;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 3px rgba(25, 25, 25, 0.1);
+}
+main .process p img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: .1rem;
+}
+main .student {
+  padding: 0 .10rem .15rem .10rem;
+  background: #fafafa;
+  box-sizing: border-box;
+  text-align: center;
+}
+main .student .img {
+  padding: .15rem;
+  background: #fff;
+}
+main .student .name {
+  padding: .15rem;
+  color: black;
+  font-size: .18rem;
+  font-weight: bold;
+  background: #fff;
+}
+main .student .describe {
+  padding: .15rem;
+  font-size: .16rem;
+  text-align: justify;
+  background: #fff;
+}
+main .student-wrap {
+  cursor: pointer;
+}
+main .student-wrap:hover {
+  box-shadow: 0 0 .1rem #888888;
+}
+main .circle-wrap {
+  text-align: center;
+  padding: .1rem 0 1rem 0;
+}
+main .circle-wrap .circle {
+  width: .1rem;
+  height: .1rem;
+  margin-right: .07rem;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.2);
+  display: inline-block;
+  background: #ffffff;
+  cursor: pointer;
+}
+main .circle-wrap .circle-first {
+  background: #29b078;
+}
+main .circle-wrap .circle:hover {
+  background: #29b078;
+}
+main .enterprise {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  justify-content: center;
+  float: left;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 992px) {
+  main .enterprise {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  main .enterprise {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .enterprise {
+    width: 100%;
+  }
+}
+main .enterprise img {
+  max-width: 100%;
+  padding: .1rem 0;
+}
+main .enterprise:hover {
+  box-shadow: 0 0 15px rgba(20, 20, 20, 0.1);
+}
+.friendly-link {
+  padding: 0 4%;
+  font-size: 0;
+  background: #fff;
+}
+.friendly-link .footer-p-bold {
+  font-weight: bold;
+  color: black;
+  font-size: .18rem;
+  padding: .1rem 0;
+  text-align: center;
+}
+.friendly-link .a-wrap {
+  display: inline-block;
+  padding: .05rem 0;
+  margin-left: 1%;
+}
+@media screen and (min-width: 992px) {
+  .friendly-link .a-wrap {
+    width: 9%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .friendly-link .a-wrap {
+    width: 19%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .friendly-link .a-wrap {
+    width: 24%;
+  }
+}
+.friendly-link .a-wrap a {
+  color: #999;
+  font-size: .14rem;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+.friendly-link .a-wrap a .footer-circle {
+  display: inline-block;
+  width: .06rem;
+  height: .06rem;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #999999;
+}
+.friendly-link .a-wrap a:hover {
+  border-bottom-color: #29b078;
+}
+/*# sourceMappingURL=task14-1.css.map */
