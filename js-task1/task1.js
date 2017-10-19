@@ -30,7 +30,9 @@ function clear() {
     div[4].style.backgroundColor = null;
     div[8].style.backgroundColor = null;
 }
+
 var timer;
+
 function begin() {
     clearInterval(timer);
     timer = setInterval(function () {
@@ -41,6 +43,7 @@ function begin() {
         }
         , 1000);
 }
+
 function clearFlash() {
     clearTimeout(timer);
     clear();
