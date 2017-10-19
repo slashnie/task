@@ -13,10 +13,11 @@
             padding: 0;
             text-align: center;
         }
-        .wrap{
-            max-width:600px;
-            margin:0 auto;
+
+        .wrap {
+            margin: 0 auto;
         }
+
         .square {
             margin: 2%;
             width: 25%;
@@ -25,13 +26,19 @@
             border-radius: 10%;
             background: #ffab2c;
         }
-        input{
-            width:10%;
-            height:40px;
+
+        input {
+            width: 10%;
+            height: 40px;
             max-width: 100px;
-            background:rgb(220,200,200);
+            background: rgb(220, 200, 200);
         }
 
+        @media screen {
+            .wrap {
+                max-width: 600px;
+            }
+        }
     </style>
 </head>
 
@@ -52,5 +59,4 @@
 <input type="button" onclick="clearFlash()" value="结束闪">
 <script src="task1.js"></script>
 </body>
-
 </html>
