@@ -5,9 +5,9 @@ function getColor() {
     for (var i = 0; i < 10; i++) {
         color[i] = Math.floor(Math.random() * 256);
     }
+    color.length = 10;
 }
 
-color.length = 10;
 var div = [];
 for (var u = 0; u < 9; u++) {
     div[u] = square[u];
@@ -30,10 +30,10 @@ function clear() {
     div[4].style.backgroundColor = null;
     div[8].style.backgroundColor = null;
 }
-
+var timer;
 function begin() {
-    this.begin = false;
-    var timer = setInterval(function () {
+    clearInterval(timer);
+    timer = setInterval(function () {
             clear();
             random();
             getColor();
@@ -41,6 +41,9 @@ function begin() {
         }
         , 1000);
 }
-
+function clearFlash() {
+    clearTimeout(timer);
+    clear();
+}
 
 

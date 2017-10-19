@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76de02f-ad39-43e2-8734-4d21e96d5668" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task1/task1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task1/task1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/float.html" afterPath="$PROJECT_DIR$/demo/float.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js-task1/task1.html" afterPath="$PROJECT_DIR$/js-task1/task1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js-task1/task1.js" afterPath="$PROJECT_DIR$/js-task1/task1.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,21 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="task1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js-task1/task1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+            <state relative-caret-position="448">
+              <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task1.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="task1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js-task1/task1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="602">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,8 +71,8 @@
       <list>
         <option value="$PROJECT_DIR$/css-task1/task1.html" />
         <option value="$PROJECT_DIR$/demo/float.html" />
-        <option value="$PROJECT_DIR$/js-task1/task1.js" />
         <option value="$PROJECT_DIR$/js-task1/task1.html" />
+        <option value="$PROJECT_DIR$/js-task1/task1.js" />
       </list>
     </option>
   </component>
@@ -156,17 +155,26 @@
       <workItem from="1505024375965" duration="174000" />
       <workItem from="1505051157529" duration="47000" />
       <workItem from="1508335802510" duration="16801000" />
-      <workItem from="1508377775045" duration="10087000" />
+      <workItem from="1508377775045" duration="13435000" />
     </task>
+    <task id="LOCAL-00001" summary="js任务一">
+      <created>1508396947196</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508396947196</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28137000" />
+    <option name="totallyTimeSpent" value="31485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2217262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2217262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -207,6 +215,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="js任务一" />
+    <option name="LAST_COMMIT_MESSAGE" value="js任务一" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -272,18 +284,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js-task1/task1.js">
+    <entry file="file://$PROJECT_DIR$/js-task1/task1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        <state relative-caret-position="448">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js-task1/task1.html">
+    <entry file="file://$PROJECT_DIR$/js-task1/task1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        <state relative-caret-position="602">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
