@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76de02f-ad39-43e2-8734-4d21e96d5668" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/collimation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/crux.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/glass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/information.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/knife.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/player.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/triangle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/images/victory.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/css/task2-1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/js/task2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/less/task2.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/task2-1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/task2-2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css-task3/task3.html" afterPath="$PROJECT_DIR$/css-task3/task3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/flex.html" afterPath="$PROJECT_DIR$/demo/flex.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -182,6 +160,36 @@
               <item name="task" type="b2602c69:ProjectViewProjectNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="js-task2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="js-task2" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="js-task2" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="js-task2" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="js-task2" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+              <item name="task2.less" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -240,7 +248,7 @@
       <workItem from="1508551447730" duration="25531000" />
       <workItem from="1508667692082" duration="17035000" />
       <workItem from="1508723506765" duration="26702000" />
-      <workItem from="1508763333823" duration="9817000" />
+      <workItem from="1508763333823" duration="9886000" />
     </task>
     <task id="LOCAL-00001" summary="js任务一">
       <created>1508396947196</created>
@@ -277,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508413660489</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="js任务二">
+      <created>1508773308946</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1508773308946</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137811000" />
+    <option name="totallyTimeSpent" value="137880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -330,7 +345,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="js任务一" />
-    <option name="LAST_COMMIT_MESSAGE" value="js任务一" />
+    <MESSAGE value="js任务二" />
+    <option name="LAST_COMMIT_MESSAGE" value="js任务二" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
