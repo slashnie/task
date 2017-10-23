@@ -1,0 +1,102 @@
+html {
+    font-size: 625%;
+}
+body {
+    font-size: 16px;
+    background-color: #f0f0f0;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    position: relative;
+    height: .44rem;
+    background: #29bde0;
+}
+header img {
+    position: absolute;
+    left: .11rem;
+    bottom: .11rem;
+    width: .17rem;
+    cursor: pointer;
+}
+main {
+    margin: .135rem .175rem .3rem;
+}
+main .last-game {
+    position: relative;
+    text-align: center;
+    height: .68rem;
+    line-height: .68rem;
+    font-size: .17rem;
+    color: #9a9a9a;
+    margin-bottom: .165rem;
+    border: 1px solid #c9c9c9;
+    background: #fff;
+}
+main .last-game img {
+    position: absolute;
+    right: .07rem;
+    top: .24rem;
+    width: .12rem;
+}
+main .content {
+    position: relative;
+    border: 1px solid #c9c9c9;
+    background: #fff;
+}
+main .content .slayer-game {
+    height: .45rem;
+    line-height: .45rem;
+    color: #fbb435;
+    font-size: .189rem;
+    text-align: center;
+    border-bottom: 2px solid #fbb435;
+}
+main .link{
+    text-decoration: none;
+    color:white;
+}
+main .content .version {
+    height: .66rem;
+    line-height: .66rem;
+    color: #fff;
+    text-align: center;
+    margin: .11rem .26rem;
+    background: #69d1e9;
+}
+main .content p {
+    font-size: .12rem;
+    color: #9a9a9a;
+    text-align: center;
+    margin: 0;
+}
+main .content .circle-wrap {
+    text-align: center;
+}
+main .content .circle {
+    display: inline-block;
+    width: .08rem;
+    height: .08rem;
+    background: #c9c9c9;
+    -moz-border-radius: .04rem;
+    -webkit-border-radius: .04rem;
+    border-radius: .04rem;
+    cursor: pointer;
+}
+main .content .circle:hover {
+    background: #69d1e9;
+}
+main .content .icon {
+    position: absolute;
+    bottom: 1.7rem;
+    right: .06rem;
+    width: 0;
+    height: 0;
+    border-top: .14rem solid transparent;
+    border-left: .14rem solid #fbb435;
+    border-bottom: .14rem solid transparent;
+    cursor: pointer;
+}
+/*# sourceMappingURL=task13-1.css.map */

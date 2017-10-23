@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js-task2</title>
+    <link rel="stylesheet" type="text/css" href="css/task2.css">
+</head>
+<body>
+<header>
+    <img src="images/back-icon.png">
+    <span>参数设置</span>
+    <img src="images/circled-help.png">
+</header>
+<main>
+    <div class="gamer-set">
+        <p>
+            <span>玩家匹配</span>
+        </p>
+        <ul id="gamer"></ul>
+        <div class="button-wrap">
+            <button id="set" >
+                <span>点击设置</span>
+                <img src="images/pencil.png">
+            </button>
+        </div>
+    </div>
+    <div class="word-group">
+        <input name="account" placeholder="水民词组">
+        <input type="password" name="password" placeholder="幽灵词组">
+    </div>
+    <div class="gamer-number">
+    <label>
+        玩家人数
+        <input id="demo"  oninput="demoValue()" onchange="remind()" value="4">
+        人
+    </label>
+    <label class="slider">
+        <button id="reduce" onclick="reduce()"></button>
+        <input id="myRange" oninput="rangeValue()" onchange="remind()" type="range" min="4" max="18" step="1" value="4" list>
+        <button id="increase" onclick="increase()"></button>
+    </label>
+    </div>
+</main>
+<footer>
+    <button id="deal">去发牌</button>
+</footer>
+<script language="JavaScript" src="js/task2.js"></script>
+</body>
+</html>
