@@ -26,7 +26,7 @@ function setNumber() {
         li[x].innerHTML = "平民1人";
     }
     //             不同人数玩家，添加不同数量的杀手
-    if (input_text.value < 7) {
+    if (input_text.value > 3 && input_text.value < 7) {
         li[2].className = ("killer");
         li[2].innerHTML = "杀手1人";
     }
@@ -75,6 +75,7 @@ function setNumber() {
         ul.appendChild(setUl[x]);
     }
 }
+
 document.getElementById("set").onclick = setNumber;
 
 function demoValue() {
@@ -85,12 +86,20 @@ function rangeValue() {
     input_text.value = input_range.value;
 }
 
+var text = input_text.value;
+
 function remind() {
+    if (isNaN(+(input_text.value))) {
+        alert("请输入4-18的数字");
+    }
+
     if (input_text.value < 4) {
         alert("玩家人数不能小于4")
+        input_text.value = 4 ;
     }
     else if (input_text.value > 18) {
         alert("玩家人数不能多于18")
+        input_text.value = 18;
     }
 }
 
@@ -98,6 +107,7 @@ function reduce() {
     if (input_range.value > 4) {
         input_range.value--;
         rangeValue();
+
     }
     else {
         alert("不能小了")
@@ -113,11 +123,11 @@ function increase() {
         alert("不能大了")
     }
 }
-document.getElementById("deal").onclick = function(){
-    if(li.length<2 ){
+
+document.getElementById("deal").onclick = function () {
+    if (li.length < 2) {
         alert("请先点击设置玩家分配")
     }
 };
-
 
 
