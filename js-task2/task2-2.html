@@ -34,7 +34,8 @@
     <div class="gamer-number">
     <label>
         玩家人数
-        <input id="demo"  oninput="demoValue()" onchange="remind()" value="4">
+        <input id="demo"  oninput="demoValue()" onchange="remind()" value="4"
+               onkeyup="chkPrice(this);" onblur="chkLast(this)" onpaste="javascript: return false;"/>
         人
     </label>
     <label class="slider">

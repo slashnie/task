@@ -89,9 +89,9 @@ function rangeValue() {
 var text = input_text.value;
 
 function remind() {
-    if (isNaN(+(input_text.value))) {
-        alert("请输入4-18的数字");
-    }
+    // if (isNaN(+(input_text.value))) {
+    //     alert("请输入4-18的数字");
+    // }
 
     if (input_text.value < 4) {
         alert("玩家人数不能小于4")
@@ -113,7 +113,20 @@ function reduce() {
         alert("不能小了")
     }
 }
-
+function chkPrice(obj){
+    obj.value = obj.value.replace(/[^\d.]/g,"");
+//必须保证第一位为数字而不是.
+    obj.value = obj.value.replace(/^\./g,"");
+//保证只有出现一个.而没有多个.
+    obj.value = obj.value.replace(/\.{2,}/g,".");
+//保证.只出现一次，而不能出现两次以上
+    obj.value = obj.value.replace(".","$#$").replace(/\./g,"").replace("$#$",".");
+}
+function chkLast(obj){
+// 如果出现非法字符就截取掉
+    if(obj.value.substr((obj.value.length - 1), 1) == '.')
+        obj.value = obj.value.substr(0,(obj.value.length - 1));
+}
 function increase() {
     if (input_range.value < 18) {
         input_range.value++;
