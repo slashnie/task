@@ -1,19 +1,22 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="zh-cn">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-    <title>JK£ºjavascript Ï´ÅÆËã·¨ </title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JKï¼šjavascript æ´—ç‰Œç®—æ³• </title>
 </head>
 <body>
 <script type="text/javascript">
-    function shuffle_pick_1(m) //Ï´ÅÆ //³éÅÆ·¨
+    function shuffle_pick_1(m) //æ´—ç‰Œ //æŠ½ç‰Œæ³•
     {
-        //Éú³ÉmÕÅÅÆ
+        //ç”Ÿæˆmå¼ ç‰Œ
         var arr = new Array(m);
         for (var i=0; i<m; i++) {
             arr[i] = i;
         }
-        //Ã¿´Î³é³öÒ»ÕÅÅÆ£¬·ÅÔÚÁíÒ»¶Ñ¡£ÒòÎªÒªÔÚÊı×éÀï³é³öÔªËØ£¬°ÑºóÃæµÄËùÓĞÔªËØÏòÇ°À­Ò»Î»£¬ËùÒÔºÜºÄÊ±¡£
+        //æ¯æ¬¡æŠ½å‡ºä¸€å¼ ç‰Œï¼Œæ”¾åœ¨å¦ä¸€å †ã€‚å› ä¸ºè¦åœ¨æ•°ç»„é‡ŒæŠ½å‡ºå…ƒç´ ï¼ŒæŠŠåé¢çš„æ‰€æœ‰å…ƒç´ å‘å‰æ‹‰ä¸€ä½ï¼Œæ‰€ä»¥å¾ˆè€—æ—¶ã€‚
         var arr2 = new Array();
         for (var i=m; i>0; i--) {
             var rnd = Math.floor(Math.random()*i);
@@ -23,14 +26,14 @@
         return arr2;
     }
 
-    function shuffle_pick(m) //Ï´ÅÆ //³éÅÆ·¨ÓÅ»¯ÅÆ
+    function shuffle_pick(m) //æ´—ç‰Œ //æŠ½ç‰Œæ³•ä¼˜åŒ–ç‰Œ
     {
-        //Éú³ÉmÕÅÅÆ
+        //ç”Ÿæˆmå¼ ç‰Œ
         var arr = new Array(m);
         for (var i=0; i<m; i++) {
             arr[i] = i;
         }
-        //Ã¿´Î³é³öÒ»ÕÅÅÆ£¬·ÅÔÚÁíÒ»¶Ñ¡£°Ñ×îºóÒ»ÕÅÎ´³éµÄÅÆ·ÅÔÚ¿ÕÎ»×ÓÉÏ¡£
+        //æ¯æ¬¡æŠ½å‡ºä¸€å¼ ç‰Œï¼Œæ”¾åœ¨å¦ä¸€å †ã€‚æŠŠæœ€åä¸€å¼ æœªæŠ½çš„ç‰Œæ”¾åœ¨ç©ºä½å­ä¸Šã€‚
         var arr2 = new Array();
         for (var i=m; i>0;) {
             var rnd = Math.floor(Math.random()*i);
@@ -40,14 +43,14 @@
         return arr2;
     }
 
-    function shuffle_swap(m) //Ï´ÅÆ //»»ÅÆ·¨
+    function shuffle_swap(m) //æ´—ç‰Œ //æ¢ç‰Œæ³•
     {
-        //Éú³ÉmÕÅÅÆ
+        //ç”Ÿæˆmå¼ ç‰Œ
         var arr = new Array(m);
         for (var i=0; i<m; i++) {
             arr[i] = i;
         }
-        //µÚiÕÅÓëÈÎÒâÒ»ÕÅÅÆ»»Î»×Ó£¬»»ÍêÒ»ÂÖ¼´¿É
+        //ç¬¬iå¼ ä¸ä»»æ„ä¸€å¼ ç‰Œæ¢ä½å­ï¼Œæ¢å®Œä¸€è½®å³å¯
         for (var i=0; i<m; i++) {
             var rnd = Math.floor(Math.random()*(i+1)),
                 temp = arr[rnd];
@@ -56,18 +59,18 @@
         }
         return arr;
     }
-    function shuffle_insert_1(m) //Ï´ÅÆ //²åÅÆ·¨
+    function shuffle_insert_1(m) //æ´—ç‰Œ //æ’ç‰Œæ³•
     {
-        //Ã¿´ÎÉú³ÉÒ»ÕÅ×î´óµÄÅÆ£¬²åÔÚËæ»úµÄÄ³ÕÅÅÆÇ°¡£ÒòÎªÒªÔÚÊı×éÀï²åÈëÔªËØ£¬°ÑºóÃæµÄËùÓĞÔªËØÏòºó¼·Ò»Î»£¬ËùÒÔºÜºÄÊ±¡£
+        //æ¯æ¬¡ç”Ÿæˆä¸€å¼ æœ€å¤§çš„ç‰Œï¼Œæ’åœ¨éšæœºçš„æŸå¼ ç‰Œå‰ã€‚å› ä¸ºè¦åœ¨æ•°ç»„é‡Œæ’å…¥å…ƒç´ ï¼ŒæŠŠåé¢çš„æ‰€æœ‰å…ƒç´ å‘åæŒ¤ä¸€ä½ï¼Œæ‰€ä»¥å¾ˆè€—æ—¶ã€‚
         var arr = [0];
         for (var i=1; i<m; i++) {
             arr.splice(Math.floor(Math.random()*(i+1)),0,i);
         }
         return arr;
     }
-    function shuffle_insert(m) //Ï´ÅÆ //²åÅÆ·¨ÓÅ»¯°æ£¬¿ÉÒÔÓÃÊıÑ§¹éÄÉ·¨Ö¤Ã÷£¬ÕâÖÖÏ´ÅÆÊÇ¾ùÔÈµÄ¡£
+    function shuffle_insert(m) //æ´—ç‰Œ //æ’ç‰Œæ³•ä¼˜åŒ–ç‰ˆï¼Œå¯ä»¥ç”¨æ•°å­¦å½’çº³æ³•è¯æ˜ï¼Œè¿™ç§æ´—ç‰Œæ˜¯å‡åŒ€çš„ã€‚
     {
-        //Ã¿´ÎÉú³ÉÒ»ÕÅ×î´óµÄÅÆ£¬ÓëËæ»úµÄÄ³ÕÅÅÆ»»Î»×Ó
+        //æ¯æ¬¡ç”Ÿæˆä¸€å¼ æœ€å¤§çš„ç‰Œï¼Œä¸éšæœºçš„æŸå¼ ç‰Œæ¢ä½å­
         var arr = new Array(m);
         arr[0] = 0;
         for (var i=1; i<m; i++) {
@@ -81,7 +84,7 @@
     //alert(shuffle_pick(10))
 
     var funcs = [shuffle_pick_1, shuffle_pick, shuffle_swap, shuffle_insert_1, shuffle_insert],
-        funcNames = ["³éÅÆ", "³éÅÆÓÅ»¯", "»»ÅÆ", "²åÅÆ", "²åÅÆÓÅ»¯"]
+        funcNames = ["æŠ½ç‰Œ", "æŠ½ç‰Œä¼˜åŒ–", "æ¢ç‰Œ", "æ’ç‰Œ", "æ’ç‰Œä¼˜åŒ–"]
     m = 10000,
         times=[];
     for(var i = 0; i < funcs.length; i++){
