@@ -21,13 +21,13 @@ function random() {
 
 function setColor() {
     div[3].style.backgroundColor = "rgb(" + color[1] + ',' + color[2] + ',' + color[3] + ")";
-    div[4].style.backgroundColor = "rgb(" + color[4] + ',' + color[5] + ',' + color[6] + ")";
+    div[6].style.backgroundColor = "rgb(" + color[4] + ',' + color[5] + ',' + color[6] + ")";
     div[8].style.backgroundColor = "rgb(" + color[7] + ',' + color[8] + ',' + color[9] + ")";
 }
 
 function clear() {
     div[3].style.backgroundColor = null;
-    div[4].style.backgroundColor = null;
+    div[6].style.backgroundColor = null;
     div[8].style.backgroundColor = null;
 }
 

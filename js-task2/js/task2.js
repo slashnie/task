@@ -5,9 +5,25 @@ var setUl = [];
 var li = [];
 var ul = document.getElementById("gamer");
 
+function remind() {
+    // if (isNaN(+(input_text.value))) {
+    //     alert("请输入4-18的数字");
+    // }
+
+    if (input_text.value < 4) {
+        alert("玩家人数不能小于4")
+        input_text.value = 4;
+    }
+    else if (input_text.value > 18) {
+        alert("玩家人数不能多于18")
+        input_text.value = 18;
+    }
+}
+
 function setNumber() {
     //             每次按按钮前先清除ul的子元素
     ul.innerHTML = "";
+    li.splice(0,li.length);
     //             笨办法，ul子元素一个一个的移除掉
 //     if(as == 0){
 //         bb();
@@ -26,29 +42,31 @@ function setNumber() {
         li[x].innerHTML = "平民1人";
     }
     //             不同人数玩家，添加不同数量的杀手
-    if (input_text.value > 3 && input_text.value < 7) {
+
+    if (input_text.value >= 4 && input_text.value <= 6) {
         li[2].className = ("killer");
         li[2].innerHTML = "杀手1人";
+
     }
-    else if (input_text.value > 6 && input_text.value < 9) {
+    else if (input_text.value >= 7 && input_text.value <= 8) {
         for (var f = 0; f < 2; f++) {
             li[f].className = ("killer");
             li[f].innerHTML = "杀手1人";
         }
     }
-    else if (input_text.value > 8 && input_text.value < 12) {
+    else if (input_text.value >= 9 && input_text.value < 11) {
         for (var d = 0; d < 3; d++) {
             li[d].className = ("killer");
             li[d].innerHTML = "杀手1人";
         }
     }
-    else if (input_text.value > 11 && input_text.value < 16) {
+    else if (input_text.value >= 12 && input_text.value <= 15) {
         for (var s = 0; s < 4; s++) {
             li[s].className = ("killer");
             li[s].innerHTML = "杀手1人";
         }
     }
-    else if (input_text.value > 15 && input_text.value < 19) {
+    else if (input_text.value >= 16 && input_text.value <= 18) {
         for (var a = 0; a < 5; a++) {
             li[a].className = ("killer");
             li[a].innerHTML = "杀手1人";
@@ -66,13 +84,27 @@ function setNumber() {
         // li[13].innerHTML = "杀手一人";
     }
     //                   将数组乱序
-    li.sort(function () {
-        return 0.5 - Math.random()
-    });
+    // li.sort(function () {
+    //     return 0.5 - Math.random()
+    // });
+
+
+    //                   定义数组乱序方法
+        function shuffle(a){
+          var len = a.length;
+          for (var i = 0; i < len - 1; i++) {
+              var index = parseInt(Math.random() * (len - i));
+              var temp = a[index];
+              a[index] = a[len - i - 1];
+              a[len - i - 1] = temp;
+          }
+      }
+
+      //                 执行乱序方法
+      shuffle(li);
     //                   将创建的乱序数组元素传递给ul
-    for (x = 0; x < input_text.value; x++) {
-        setUl[x] = li[x];
-        ul.appendChild(setUl[x]);
+    for (var y = 0; y < input_text.value; y++) {
+        ul.appendChild(li[y]);
     }
 }
 
@@ -88,20 +120,6 @@ function rangeValue() {
 
 var text = input_text.value;
 
-function remind() {
-    // if (isNaN(+(input_text.value))) {
-    //     alert("请输入4-18的数字");
-    // }
-
-    if (input_text.value < 4) {
-        alert("玩家人数不能小于4")
-        input_text.value = 4 ;
-    }
-    else if (input_text.value > 18) {
-        alert("玩家人数不能多于18")
-        input_text.value = 18;
-    }
-}
 
 function reduce() {
     if (input_range.value > 4) {
@@ -113,20 +131,23 @@ function reduce() {
         alert("不能小了")
     }
 }
-function chkPrice(obj){
-    obj.value = obj.value.replace(/[^\d.]/g,"");
+
+function chkPrice(obj) {
+    obj.value = obj.value.replace(/[^\d.]/g, "");
 //必须保证第一位为数字而不是.
-    obj.value = obj.value.replace(/^\./g,"");
+    obj.value = obj.value.replace(/^\./g, "");
 //保证只有出现一个.而没有多个.
-    obj.value = obj.value.replace(/\.{2,}/g,".");
+    obj.value = obj.value.replace(/\.{2,}/g, ".");
 //保证.只出现一次，而不能出现两次以上
-    obj.value = obj.value.replace(".","$#$").replace(/\./g,"").replace("$#$",".");
+    obj.value = obj.value.replace(".", "$#$").replace(/\./g, "").replace("$#$", ".");
 }
-function chkLast(obj){
+
+function chkLast(obj) {
 // 如果出现非法字符就截取掉
-    if(obj.value.substr((obj.value.length - 1), 1) == '.')
-        obj.value = obj.value.substr(0,(obj.value.length - 1));
+    if (obj.value.substr((obj.value.length - 1), 1) == '.')
+        obj.value = obj.value.substr(0, (obj.value.length - 1));
 }
+
 function increase() {
     if (input_range.value < 18) {
         input_range.value++;
@@ -142,5 +163,7 @@ document.getElementById("deal").onclick = function () {
         alert("请先点击设置玩家分配")
     }
 };
+
+
 
 
