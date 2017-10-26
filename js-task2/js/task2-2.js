@@ -54,7 +54,7 @@ function setNumber() {
             li[f].innerHTML = "杀手1人";
         }
     }
-    else if (input_text.value >= 9 && input_text.value < 11) {
+    else if (input_text.value >= 9 && input_text.value <= 11) {
         for (var d = 0; d < 3; d++) {
             li[d].className = ("killer");
             li[d].innerHTML = "杀手1人";
