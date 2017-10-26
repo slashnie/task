@@ -96,8 +96,8 @@ main .gamer-set ul .killer {
   display: -webkit-flex;
   display: -ms-flex;
   display: -moz-flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 33%;
   list-style: none;
 }
