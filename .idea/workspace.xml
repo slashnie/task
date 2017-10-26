@@ -5,10 +5,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/js/task2-3.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/less/task2-3.less" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task2/task2-3.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js-task2/css/task2-2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js-task2/css/task2-2.css.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js-task2/less/task2-2.less" afterPath="$PROJECT_DIR$/js-task2/less/task2-2.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -178,13 +175,6 @@
               <item name="task" type="462c0819:PsiDirectoryNode" />
               <item name="js-task2" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="js-task2" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="task2-2.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="task" type="b2602c69:ProjectViewProjectNode" />
@@ -360,11 +350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508933497080</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="demo">
+      <created>1509007688393</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1509007688393</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192252000" />
+    <option name="totallyTimeSpent" value="192300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
