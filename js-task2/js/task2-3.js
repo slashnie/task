@@ -22,7 +22,12 @@ $(document).ready(function () {
         else {
             $("span.pass").toggle().text("" + "隐藏并传递给" + identify_num + "号" + "");
         }
-        $("span.look").toggle().text("" + "查看" + identify_num + "号身份" + "");
+        if (identify_num === (Number(length) + 1)){
+            $("span.look").hide();
+        }
+        else {
+            $("span.look").toggle().text("" + "查看" + identify_num + "号身份" + "");
+        }
     });
 });
 
