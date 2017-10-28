@@ -39,37 +39,37 @@ function setNumber() {
     for (x = 0; x < input_text.value; x++) {
         li[x] = document.createElement("li");
         li[x].className = ("civilian");
-        li[x].innerHTML = "平民1人";
+        li[x].innerHTML = "平民";
     }
     //             不同人数玩家，添加不同数量的杀手
 
-    if (input_text.value >= 4 && input_text.value <= 6) {
+    if (input_text.value >= 4 && input_text.value <= 5) {
         li[2].className = ("killer");
-        li[2].innerHTML = "杀手1人";
+        li[2].innerHTML = "杀手";
 
     }
-    else if (input_text.value >= 7 && input_text.value <= 8) {
+    else if (input_text.value >= 6 && input_text.value <= 8) {
         for (var f = 0; f < 2; f++) {
             li[f].className = ("killer");
-            li[f].innerHTML = "杀手1人";
+            li[f].innerHTML = "杀手";
         }
     }
     else if (input_text.value >= 9 && input_text.value <= 11) {
         for (var d = 0; d < 3; d++) {
             li[d].className = ("killer");
-            li[d].innerHTML = "杀手1人";
+            li[d].innerHTML = "杀手";
         }
     }
     else if (input_text.value >= 12 && input_text.value <= 15) {
         for (var s = 0; s < 4; s++) {
             li[s].className = ("killer");
-            li[s].innerHTML = "杀手1人";
+            li[s].innerHTML = "杀手";
         }
     }
     else if (input_text.value >= 16 && input_text.value <= 18) {
         for (var a = 0; a < 5; a++) {
             li[a].className = ("killer");
-            li[a].innerHTML = "杀手1人";
+            li[a].innerHTML = "杀手";
         }
         // 笨办法 添加杀手
         // li[3].className = ("killer");
@@ -107,6 +107,8 @@ function setNumber() {
         ul.appendChild(li[y]);
     }
 }
+
+
 
 document.getElementById("set").onclick = setNumber;
 
@@ -157,10 +159,28 @@ function increase() {
         alert("不能大了")
     }
 }
-
 document.getElementById("deal").onclick = function () {
+    console.log( );
     if (li.length < 2) {
         alert("请先点击设置玩家分配")
+    }
+    else{
+        var identify = [];
+        for(var i = 0; i< input_text.value ; i++ ){
+            identify[i] = li[i].innerHTML;
+        }
+        var storage = window.localStorage;
+        storage.setItem("length",input_text.value);
+        localStorage.setItem("identify",JSON.stringify(identify));
+        window.location.href = "task2-3.html";
+
+      //                           笨办法：键值对的形式去传参数
+        // var storage = window.localStorage;
+        // for(var i = 0; i < input_text.value ;i++){
+        //     storage.setItem("aa"+i,li[i].innerHTML);
+        //     // var data=JSON.stringify("aa"+i);
+        // }
+
     }
 };
 

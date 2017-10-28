@@ -1,0 +1,112 @@
+html {
+  font-size: 625%;
+}
+
+body {
+  font-size: 16px;
+  color: white;
+  letter-spacing: .07rem;
+  background: @bg;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  align-items: center;
+}
+
+@main-bg: #ffedc5;
+@num-color: #f56b81;
+@bg: #29bde0;
+@yellow: #fbb435;
+@white: #fff;
+
+header {
+  .flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: .5rem;
+  font-size: .2rem;
+  font-weight:bold;
+  background: @bg;
+  border-bottom: 1px solid #74d4eb;
+
+  img {
+    height: .24rem;
+    padding: 0 .1rem;
+    cursor: pointer;
+  }
+}
+
+main {
+  width: 80%;
+  height: 3.5rem;
+  border: 3px solid @white;
+  margin: 1rem 10% 0;
+  text-align: center;
+  letter-spacing: .02rem;
+  box-sizing: border-box;
+  background: @main-bg;
+  .circle {
+    position: absolute;
+    left: 50%;
+    top: 1rem;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    line-height: .4rem;
+    color: @num-color;
+    font-size: .2rem;
+    border-radius: 50%;
+    border: 2px solid @main-bg;
+    background: @white;
+  }
+  p {
+    display: none;
+    line-height: .2rem;
+    font-size: .2rem;
+    font-weight: bold;
+    color: @bg;
+    margin-top: .1rem;
+  }
+  .identify {
+    max-width: 70%;
+    width: 2rem;
+    padding-top: .5rem;
+  }
+  .role {
+    display: none;
+    max-width: 80%;
+    width: 1.5rem;
+    margin: .3rem 0;
+  }
+}
+
+footer {
+  .transmit {
+    width: 80%;
+    height: .5rem;
+    margin: .3rem 10% 0;
+    font-size: .25rem;
+    color:@white;
+    background: @yellow;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    .pass{
+      display:none;
+    }
+  }
+}
+
