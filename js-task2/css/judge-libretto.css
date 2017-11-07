@@ -1,0 +1,354 @@
+html {
+  font-size: 625%;
+}
+body {
+  font-size: 16px;
+  color: white;
+  background: #eee;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  align-items: center;
+}
+header {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  align-items: center;
+  justify-content: space-between;
+  height: .44rem;
+  padding: 0 .1rem;
+  font-size: .2rem;
+  background: #29bde0;
+}
+header .back {
+  width: .15rem;
+  cursor: pointer;
+}
+header .cancel {
+  width: .2rem;
+  cursor: pointer;
+}
+main {
+  margin-bottom: .7rem;
+}
+main .day0,
+main .day1,
+main .day2,
+main .day3,
+main .day4,
+main .day5,
+main .day6,
+main .day7 {
+  display: none;
+  height: .4rem;
+  line-height: .4rem;
+  color: #29bde0;
+  font-size: .18rem;
+  font-weight: 200;
+  margin: .06rem;
+  text-align: center;
+  border: 1px solid #c9c9c9;
+  background: #fafafa;
+  cursor: pointer;
+}
+main .process0,
+main .process1,
+main .process2,
+main .process3,
+main .process4,
+main .process5,
+main .process6,
+main .process7,
+main .process8,
+main .process9,
+main .process10 {
+  position: relative;
+  display: none;
+  padding: .2rem;
+  margin: .06rem;
+  border: 1px solid #c9c9c9;
+  background: #fafafa;
+}
+main .process0 .wrap,
+main .process1 .wrap,
+main .process2 .wrap,
+main .process3 .wrap,
+main .process4 .wrap,
+main .process5 .wrap,
+main .process6 .wrap,
+main .process7 .wrap,
+main .process8 .wrap,
+main .process9 .wrap,
+main .process10 .wrap {
+  float: left;
+  height: 2.2rem;
+  width: .3rem;
+  padding-top: .25rem;
+  font-size: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+main .process0 .wrap img,
+main .process1 .wrap img,
+main .process2 .wrap img,
+main .process3 .wrap img,
+main .process4 .wrap img,
+main .process5 .wrap img,
+main .process6 .wrap img,
+main .process7 .wrap img,
+main .process8 .wrap img,
+main .process9 .wrap img,
+main .process10 .wrap img {
+  width: .15rem;
+}
+main .process0 .wrap .circle,
+main .process1 .wrap .circle,
+main .process2 .wrap .circle,
+main .process3 .wrap .circle,
+main .process4 .wrap .circle,
+main .process5 .wrap .circle,
+main .process6 .wrap .circle,
+main .process7 .wrap .circle,
+main .process8 .wrap .circle,
+main .process9 .wrap .circle,
+main .process10 .wrap .circle {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  align-items: center;
+  justify-content: center;
+  width: .29rem;
+  height: .29rem;
+  border: 1px solid #c9c9c9;
+  border-radius: 50%;
+  background: #fafafa;
+}
+main .process0 .wrap .short-line,
+main .process1 .wrap .short-line,
+main .process2 .wrap .short-line,
+main .process3 .wrap .short-line,
+main .process4 .wrap .short-line,
+main .process5 .wrap .short-line,
+main .process6 .wrap .short-line,
+main .process7 .wrap .short-line,
+main .process8 .wrap .short-line,
+main .process9 .wrap .short-line,
+main .process10 .wrap .short-line {
+  display: inline-block;
+  width: .02rem;
+  height: .3rem;
+  background: #c9c9c9;
+}
+main .process0 .wrap .long-line,
+main .process1 .wrap .long-line,
+main .process2 .wrap .long-line,
+main .process3 .wrap .long-line,
+main .process4 .wrap .long-line,
+main .process5 .wrap .long-line,
+main .process6 .wrap .long-line,
+main .process7 .wrap .long-line,
+main .process8 .wrap .long-line,
+main .process9 .wrap .long-line,
+main .process10 .wrap .long-line {
+  display: inline-block;
+  width: .02rem;
+  height: 1.25rem;
+  background: #c9c9c9;
+}
+main .process0 .kill,
+main .process1 .kill,
+main .process2 .kill,
+main .process3 .kill,
+main .process4 .kill,
+main .process5 .kill,
+main .process6 .kill,
+main .process7 .kill,
+main .process8 .kill,
+main .process9 .kill,
+main .process10 .kill {
+  word-break: break-all;
+  position: relative;
+  height: .4rem;
+  line-height: .4rem;
+  margin: .2rem 0 .2rem .6rem;
+  text-align: center;
+  background: #24a7c6;
+  cursor: pointer;
+}
+main .process0 p,
+main .process1 p,
+main .process2 p,
+main .process3 p,
+main .process4 p,
+main .process5 p,
+main .process6 p,
+main .process7 p,
+main .process8 p,
+main .process9 p,
+main .process10 p {
+  display: none;
+  color: black;
+  font-size: .14rem;
+  margin-left: .4rem;
+  background: #ffffff;
+}
+main .process0 .kill1,
+main .process1 .kill1,
+main .process2 .kill1,
+main .process3 .kill1,
+main .process4 .kill1,
+main .process5 .kill1,
+main .process6 .kill1,
+main .process7 .kill1,
+main .process8 .kill1,
+main .process9 .kill1,
+main .process10 .kill1 {
+  word-break: break-all;
+  position: relative;
+  height: .4rem;
+  line-height: .4rem;
+  margin: .2rem 0 .2rem .6rem;
+  text-align: center;
+  background: #3d7582;
+  cursor: pointer;
+}
+main .process0 .kill1:before,
+main .process1 .kill1:before,
+main .process2 .kill1:before,
+main .process3 .kill1:before,
+main .process4 .kill1:before,
+main .process5 .kill1:before,
+main .process6 .kill1:before,
+main .process7 .kill1:before,
+main .process8 .kill1:before,
+main .process9 .kill1:before,
+main .process10 .kill1:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+  width: 0;
+  height: 0;
+  font-size: 0;
+  transform: translate(-100%, -50%);
+  border-top: 10px solid transparent;
+  border-right: 20px solid #3e7582;
+  border-bottom: 10px solid transparent;
+  border-left: 0 solid transparent;
+}
+main .process0 .kill:hover,
+main .process1 .kill:hover,
+main .process2 .kill:hover,
+main .process3 .kill:hover,
+main .process4 .kill:hover,
+main .process5 .kill:hover,
+main .process6 .kill:hover,
+main .process7 .kill:hover,
+main .process8 .kill:hover,
+main .process9 .kill:hover,
+main .process10 .kill:hover {
+  background: #3e7581;
+}
+main .process0 .kill:hover:before,
+main .process1 .kill:hover:before,
+main .process2 .kill:hover:before,
+main .process3 .kill:hover:before,
+main .process4 .kill:hover:before,
+main .process5 .kill:hover:before,
+main .process6 .kill:hover:before,
+main .process7 .kill:hover:before,
+main .process8 .kill:hover:before,
+main .process9 .kill:hover:before,
+main .process10 .kill:hover:before {
+  border-right: 20px solid #3e7582;
+}
+main .process0 .kill:before,
+main .process1 .kill:before,
+main .process2 .kill:before,
+main .process3 .kill:before,
+main .process4 .kill:before,
+main .process5 .kill:before,
+main .process6 .kill:before,
+main .process7 .kill:before,
+main .process8 .kill:before,
+main .process9 .kill:before,
+main .process10 .kill:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+  width: 0;
+  height: 0;
+  font-size: 0;
+  transform: translate(-100%, -50%);
+  border-top: 10px solid transparent;
+  border-right: 20px solid #24a7c6;
+  border-bottom: 10px solid transparent;
+  border-left: 0 solid transparent;
+}
+main .process0:before,
+main .process1:before,
+main .process2:before,
+main .process3:before,
+main .process4:before,
+main .process5:before,
+main .process6:before,
+main .process7:before,
+main .process8:before,
+main .process9:before,
+main .process10:before {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -100%);
+  content: "";
+  width: 0;
+  height: 0;
+  font-size: 0;
+  border-top: 0 solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #fafafa;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: .65rem;
+  font-size: 0;
+  text-align: center;
+  background: rgba(153, 223, 240, 0.5);
+}
+footer a {
+  display: inline-block;
+  height: .43rem;
+  width: 40%;
+  margin: .11rem 5%;
+  font: 0.2rem/0.43rem normal;
+  border-radius: .05rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+footer #end {
+  background: #f66f6f;
+}
+footer #log {
+  background: #fbb435;
+}
+/*# sourceMappingURL=judge-libretto.css.map */

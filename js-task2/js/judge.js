@@ -1,11 +1,15 @@
-
-$(document).ready(function(){
+$(document).ready(function () {
     var storage = window.localStorage;
     var identify = JSON.parse(localStorage.getItem("identify"));
     var length = storage.getItem("length");
-        for(var i = 0; i < length ; i++){
-            $(".wrap"+i).show();
-           $(".wrap"+i +" "+".identify").text(identify[i]);
-        }
+
+    for (var i = 0; i < length; i++) {
+        $(".wrap" + i).show();
+        $(".wrap" + i + " " + ".identify").text(identify[i]);
+    }
+    $("button").click(function(){
+        window.location.href = "judge-libretto.html"
+    })
+
 });
 

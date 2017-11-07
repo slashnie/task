@@ -3,6 +3,8 @@ var input_range = document.getElementById("myRange");
 var x;
 var setUl = [];
 var li = [];
+var killer_num;
+var civilian_num;
 var ul = document.getElementById("gamer");
 
 function remind() {
@@ -15,7 +17,7 @@ function remind() {
         input_text.value = 4;
     }
     else if (input_text.value > 18) {
-        alert("玩家人数不能多于18")
+        alert("玩家人数不能多于18");
         input_text.value = 18;
     }
 }
@@ -46,49 +48,45 @@ function setNumber() {
     if (input_text.value >= 4 && input_text.value <= 5) {
         li[2].className = ("killer");
         li[2].innerHTML = "杀手";
-
+        killer_num = 1;
+        civilian_num = input_text.value -1;
     }
     else if (input_text.value >= 6 && input_text.value <= 8) {
         for (var f = 0; f < 2; f++) {
             li[f].className = ("killer");
             li[f].innerHTML = "杀手";
         }
+        killer_num = 2;
+        civilian_num = input_text.value -2;
     }
     else if (input_text.value >= 9 && input_text.value <= 11) {
         for (var d = 0; d < 3; d++) {
             li[d].className = ("killer");
             li[d].innerHTML = "杀手";
         }
+        killer_num = 3;
+        civilian_num = input_text.value -3;
     }
     else if (input_text.value >= 12 && input_text.value <= 15) {
         for (var s = 0; s < 4; s++) {
             li[s].className = ("killer");
             li[s].innerHTML = "杀手";
         }
+        killer_num = 4;
+        civilian_num = input_text.value -4;
     }
     else if (input_text.value >= 16 && input_text.value <= 18) {
         for (var a = 0; a < 5; a++) {
             li[a].className = ("killer");
             li[a].innerHTML = "杀手";
         }
-        // 笨办法 添加杀手
-        // li[3].className = ("killer");
-        // li[3].innerHTML = "杀手一人";
-        // li[6].className = ("killer");
-        // li[6].innerHTML = "杀手一人";
-        // li[8].className = ("killer");
-        // li[8].innerHTML = "杀手一人";
-        // li[10].className = ("killer");
-        // li[10].innerHTML = "杀手一人";
-        // li[13].className = ("killer");
-        // li[13].innerHTML = "杀手一人";
+        killer_num = 5;
+        civilian_num = input_text.value -5 ;
     }
     //                   将数组乱序
     // li.sort(function () {
     //     return 0.5 - Math.random()
     // });
-
-
     //                   定义数组乱序方法
         function shuffle(a){
           var len = a.length;
@@ -160,8 +158,7 @@ function increase() {
     }
 }
 document.getElementById("deal").onclick = function () {
-    console.log( );
-    if (li.length < 2) {
+    if (li.length !== parseInt(input_text.value)) {
         alert("请先点击设置玩家分配")
     }
     else{
@@ -169,8 +166,32 @@ document.getElementById("deal").onclick = function () {
         for(var i = 0; i< input_text.value ; i++ ){
             identify[i] = li[i].innerHTML;
         }
+        var time = 0.5 ;
+        var condition = 0;
+        var identify_kill =[];
+        var num_kill = [];
+        var identify_vote =[];
+        var num_vote = [];
+        var killed_num = [];
+        var aa = -1;
+        var bb = -1;
+        var cc = 0;
         var storage = window.localStorage;
         storage.setItem("length",input_text.value);
+        storage.setItem("time",time);
+        storage.setItem("condition",0);
+        storage.setItem("aa", -1);
+        storage.setItem("bb", -1);
+        storage.setItem("cc", 0);
+        storage.setItem("killer_num", killer_num);
+        storage.setItem("civilian_num",civilian_num);
+        storage.setItem("killer", killer_num);
+        storage.setItem("civilian",civilian_num);
+        localStorage.setItem("identify_kill",JSON.stringify(identify_kill));
+        localStorage.setItem("identify_vote",JSON.stringify(identify_vote));
+        localStorage.setItem("num_kill",JSON.stringify(num_kill));
+        localStorage.setItem("num_vote",JSON.stringify(num_vote));
+        localStorage.setItem("killed_num",JSON.stringify(killed_num));
         localStorage.setItem("identify",JSON.stringify(identify));
         window.location.href = "task2-3.html";
 
