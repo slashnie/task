@@ -34,7 +34,7 @@ $(document).ready(function () {
             }
             if (num_kill.length === i) {
                 // 最新的一天还没有杀人操作，杀人内容不显示
-                $(".process" + q2).children().eq(2).hide().text(" ").css("background-color", "rgb(255, 255, 255)");
+                $(".process" + i).children().eq(2).hide().text(" ").css("background-color", "rgb(255, 255, 255)");
                 $(".process" + i + " " + ".short-line").css("height", "0.29rem");
                 $(".process" + i ).children().eq(1).removeClass().addClass("kill");
                 $(".process" + i).children().eq(2).hide().text(" ");
