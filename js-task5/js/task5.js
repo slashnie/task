@@ -31,10 +31,10 @@ $("document").ready(function () {
                     $("#pass_info").text("账号或密码错误");
                 }
             },
-            // error: function (error) {
-            //     // $("#pass_info").text("账号或密码错误");
-            //     console.log(error);
-            // }
+            error: function (error) {
+                console.log(error);
+                $("#pass_info").text("登录失败");
+            }
         })
     });
 });
