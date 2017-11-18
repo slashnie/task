@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+   <style>
+       input.touch{
+           background: blue;
+       }
+   </style>
+</head>
+<body>
+<div ng-app="myApp">
+<form name="myController">
+    <input type="email" name="myName" ng-model="text">
+    <span ng-show="myController.myName.$error.email">不是邮箱的正确格式</span>
+</form>
+    <div ng-controller="ctrl1">
+        <input type="text" ng-model="name">
+        <input type="text" ng-model="lastName">
+    </div>
+    <div ng-controller="ctrl2">
+        <input type="text" ng-model="name">
+        <input type="text" ng-model="lastName">
+        {{ name | uppercase }}
+    </div>
+</div>
+<script>
+    var app = angular.module("myApp", []);
+    app.controller("ctrl1",function($scope,$rootScope){
+        $scope.name = "slash";
+        $rootScope.lastName = "nie";
+    });
+    app.controller("ctrl2",function($scope,$rootScope){
+        $scope.name = "jack";
+    });
+
+</script>
+ </body>
+</html>

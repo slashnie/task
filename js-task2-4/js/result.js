@@ -24,6 +24,7 @@ $(document).ready(function () {
     }
     if(killer_num===civilian_num){
         $("#words").text("太棒了！你们知道么？在捉鬼游戏中只有20%的杀手取得游戏的最终胜利哦！")
+
     }
     for (var q1 = 0; q1 <= i; q1++) {
         $(day[q1]).show();

@@ -2,56 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76de02f-ad39-43e2-8734-4d21e96d5668" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/js-parents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task5/images/login-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task5/images/password.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task5/images/username.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/angular-plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/demo11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/ng-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task5/js/task5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task5/less/task5.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-task5/task5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/css/judge-libretto.css" afterPath="$PROJECT_DIR$/js-task2-4/css/judge-libretto.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/css/judge-libretto.css.map" afterPath="$PROJECT_DIR$/js-task2-4/css/judge-libretto.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/css/judge.css" afterPath="$PROJECT_DIR$/js-task2-4/css/judge.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/css/kill-vote.css" afterPath="$PROJECT_DIR$/js-task2-4/css/kill-vote.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/css/result.css" afterPath="$PROJECT_DIR$/js-task2-4/css/result.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/css/task2-1.css" afterPath="$PROJECT_DIR$/js-task2-4/css/task2-1.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/css/task2-2.css" afterPath="$PROJECT_DIR$/js-task2-4/css/task2-2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/css/task2-2.css.map" afterPath="$PROJECT_DIR$/js-task2-4/css/task2-2.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/css/task2-3.css" afterPath="$PROJECT_DIR$/js-task2-4/css/task2-3.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/css/task2-3.css.map" afterPath="$PROJECT_DIR$/js-task2-4/css/task2-3.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/back-icon.png" afterPath="$PROJECT_DIR$/js-task2-4/images/back-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/book.png" afterPath="$PROJECT_DIR$/js-task2-4/images/book.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/cancel.png" afterPath="$PROJECT_DIR$/js-task2-4/images/cancel.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/circled-help.png" afterPath="$PROJECT_DIR$/js-task2-4/images/circled-help.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/home.png" afterPath="$PROJECT_DIR$/js-task2-4/images/home.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/identify.png" afterPath="$PROJECT_DIR$/js-task2-4/images/identify.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/increase.png" afterPath="$PROJECT_DIR$/js-task2-4/images/increase.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/information.png" afterPath="$PROJECT_DIR$/js-task2-4/images/information.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/knife.png" afterPath="$PROJECT_DIR$/js-task2-4/images/knife.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/menu.png" afterPath="$PROJECT_DIR$/js-task2-4/images/menu.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/moon.png" afterPath="$PROJECT_DIR$/js-task2-4/images/moon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/pencil.png" afterPath="$PROJECT_DIR$/js-task2-4/images/pencil.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/reduce.png" afterPath="$PROJECT_DIR$/js-task2-4/images/reduce.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/role.png" afterPath="$PROJECT_DIR$/js-task2-4/images/role.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/slider.png" afterPath="$PROJECT_DIR$/js-task2-4/images/slider.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/sun.png" afterPath="$PROJECT_DIR$/js-task2-4/images/sun.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/images/victory.png" afterPath="$PROJECT_DIR$/js-task2-4/images/victory.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/js/judge-libretto.js" afterPath="$PROJECT_DIR$/js-task2-4/js/judge-libretto.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/js/judge-log.js" afterPath="$PROJECT_DIR$/js-task2-4/js/judge-log.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/js/judge.js" afterPath="$PROJECT_DIR$/js-task2-4/js/judge.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/js/kill-vote.js" afterPath="$PROJECT_DIR$/js-task2-4/js/kill-vote.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/js/result.js" afterPath="$PROJECT_DIR$/js-task2-4/js/result.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/js/task2-2.js" afterPath="$PROJECT_DIR$/js-task2-4/js/task2-2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/js/task2-3.js" afterPath="$PROJECT_DIR$/js-task2-4/js/task2-3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/judge-libretto.html" afterPath="$PROJECT_DIR$/js-task2-4/judge-libretto.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/judge-log.html" afterPath="$PROJECT_DIR$/js-task2-4/judge-log.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/judge.html" afterPath="$PROJECT_DIR$/js-task2-4/judge.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/kill-vote.html" afterPath="$PROJECT_DIR$/js-task2-4/kill-vote.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/less/judge-libretto.css" afterPath="$PROJECT_DIR$/js-task2-4/less/judge-libretto.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/less/judge-libretto.less" afterPath="$PROJECT_DIR$/js-task2-4/less/judge-libretto.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/less/task2-2.css" afterPath="$PROJECT_DIR$/js-task2-4/less/task2-2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/less/task2-2.less" afterPath="$PROJECT_DIR$/js-task2-4/less/task2-2.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/less/task2-3.css" afterPath="$PROJECT_DIR$/js-task2-4/less/task2-3.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/less/task2-3.less" afterPath="$PROJECT_DIR$/js-task2-4/less/task2-3.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/result.html" afterPath="$PROJECT_DIR$/js-task2-4/result.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/task2-1.html" afterPath="$PROJECT_DIR$/js-task2-4/task2-1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/task2-2.html" afterPath="$PROJECT_DIR$/js-task2-4/task2-2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js-task2/task2-3.html" afterPath="$PROJECT_DIR$/js-task2-4/task2-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/table.html" afterPath="$PROJECT_DIR$/demo/table.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js-task2-4/js/result.js" afterPath="$PROJECT_DIR$/js-task2-4/js/result.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,7 +36,48 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="task5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js-task5/task5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js-task2-4/js/result.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task5.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js-task5/js/task5.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
+        <entry file="file://F:/nginx-1.12.2/conf/nginx.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,20 +113,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css-task1/task1.html" />
-        <option value="F:/svn/index.html" />
-        <option value="$PROJECT_DIR$/js-task/js-task2/task2.js" />
-        <option value="$PROJECT_DIR$/js-task2/task2.js" />
-        <option value="$PROJECT_DIR$/js-task1/task1.html" />
-        <option value="$PROJECT_DIR$/js-task2/css/task2.css" />
-        <option value="$PROJECT_DIR$/css-task7/task7-2.html" />
-        <option value="$PROJECT_DIR$/js-task2/js/range.js" />
-        <option value="$PROJECT_DIR$/demo/flex.html" />
-        <option value="$PROJECT_DIR$/js-task2/task2.html" />
-        <option value="$PROJECT_DIR$/js-task2/less/task2.less" />
         <option value="$PROJECT_DIR$/js-task2/css/task2-1.css" />
         <option value="$PROJECT_DIR$/js-task2/js/task2.js" />
-        <option value="$PROJECT_DIR$/js-task1/task1.js" />
         <option value="$PROJECT_DIR$/demo/shuffle.js" />
         <option value="$PROJECT_DIR$/demo/shuffle.html" />
         <option value="$PROJECT_DIR$/demo/shuffle1.html" />
@@ -159,6 +151,19 @@
         <option value="$PROJECT_DIR$/js-task2/js/judge-libretto.js" />
         <option value="$PROJECT_DIR$/js-task2/js/task2-3.js" />
         <option value="$PROJECT_DIR$/demo/js-parents.html" />
+        <option value="$PROJECT_DIR$/js-5/task5.css" />
+        <option value="$PROJECT_DIR$/js-5/task5.js" />
+        <option value="$PROJECT_DIR$/js-task1/task1.js" />
+        <option value="$PROJECT_DIR$/js-5/less/task5.less" />
+        <option value="$PROJECT_DIR$/js-task2-4/result.html" />
+        <option value="$PROJECT_DIR$/js-5/task5.html" />
+        <option value="$PROJECT_DIR$/demo/table.html" />
+        <option value="$PROJECT_DIR$/js-5/js/task5.js" />
+        <option value="$PROJECT_DIR$/demo/ng-demo.html" />
+        <option value="F:/nginx-1.12.2/conf/nginx.conf" />
+        <option value="$PROJECT_DIR$/js-task5/index.html" />
+        <option value="$PROJECT_DIR$/js-task2-4/js/result.js" />
+        <option value="$PROJECT_DIR$/js-task5/js/task5.js" />
       </list>
     </option>
   </component>
@@ -169,10 +174,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="79" />
-    <option name="y" value="64" />
-    <option name="width" value="1232" />
-    <option name="height" value="634" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="838" />
+    <option name="height" value="596" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -208,8 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,12 +223,14 @@
             <path>
               <item name="task" type="b2602c69:ProjectViewProjectNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="js-task2-4" type="462c0819:PsiDirectoryNode" />
+              <item name="js-task5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,9 +244,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git\task\js-5\js" />
+      <recent name="F:\git\task\js-5\images" />
+      <recent name="F:\git\task\css-task5\images" />
       <recent name="F:\git\task\js-task2\js" />
       <recent name="F:\git\task\css-task" />
-      <recent name="F:\git\task\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\git\task\js-task2\images" />
@@ -304,7 +311,16 @@
       <workItem from="1510016058249" duration="5863000" />
       <workItem from="1510061319048" duration="887000" />
       <workItem from="1510105728998" duration="3814000" />
-      <workItem from="1510205540575" duration="49000" />
+      <workItem from="1510205540575" duration="8658000" />
+      <workItem from="1510276110591" duration="598000" />
+      <workItem from="1510290359227" duration="1282000" />
+      <workItem from="1510335074032" duration="161000" />
+      <workItem from="1510543456234" duration="30408000" />
+      <workItem from="1510623786368" duration="4252000" />
+      <workItem from="1510738869823" duration="1814000" />
+      <workItem from="1510803060529" duration="3195000" />
+      <workItem from="1510816593715" duration="56000" />
+      <workItem from="1510971427520" duration="6336000" />
     </task>
     <task id="LOCAL-00001" summary="js任务一">
       <created>1508396947196</created>
@@ -439,11 +455,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510022539462</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="js任务四">
+      <created>1510205632131</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1510205632131</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="466223000" />
+    <option name="totallyTimeSpent" value="522934000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,15 +480,15 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1845238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -475,9 +498,31 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1845238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -504,101 +549,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js-task2-4/images/increase.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/images/slider.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/images/reduce.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/images/pencil.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-task7/images/t72cancel.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/images/cancel.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2/css/task2.css" />
-    <entry file="file://$PROJECT_DIR$/js-task2-4/less/task2-2.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="90" column="14" lean-forward="true" selection-start-line="90" selection-start-column="14" selection-end-line="90" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/css/task2-3.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/css/task2-3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/images/identify.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://F:/Google下载/27349 (1).user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Google下载/27349.user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-task5/task5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/float..html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-task13/css/task13-2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="170" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-task13/task13-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -643,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/js/judge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js-task2-4/css/judge-libretto.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -664,38 +607,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-task13/task13-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="112" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js-task2-4/css/result.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="139" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/judge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/judge-libretto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="181" column="0" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -710,13 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/js/result.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -738,14 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js-task2-4/js/task2-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="186" column="53" lean-forward="false" selection-start-line="186" selection-start-column="53" selection-end-line="186" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -753,15 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding>
-            <element signature="n#div#2;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,6 +712,154 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="76" lean-forward="true" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-5/task5.css" />
+    <entry file="file://$PROJECT_DIR$/js-5/task5.less" />
+    <entry file="file://$PROJECT_DIR$/js-task1/task1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="894">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-task1/task1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-task2-4/js/task2-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4278">
+          <caret line="186" column="53" lean-forward="false" selection-start-line="186" selection-start-column="53" selection-end-line="186" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-task2-4/judge-libretto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-task12/task12-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2510">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-task13/task13-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$0/batch.css" />
+    <entry file="file://$PROJECT_DIR$/js-task2-4/judge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-task5/task5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4347">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-task5/less/task5.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/souhu.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/ul.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-task2-4/js/judge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/ng-demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-task5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/nginx-1.12.2/conf/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-task2-4/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="115" column="7" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-task2-4/js/result.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-task5/task5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-task5/js/task5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
           <folding />
         </state>
       </provider>
