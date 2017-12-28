@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-route</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.6/angular.js"></script>
+</head>
+<body>
+<div ng-controller="myCtrl">
+    <div>{{order_id}}</div>
+</div>
+<script>
+    var app = angular.module("app", ["ngRoute"]);
+    app.config(["$routeProvider",function($routeProvider){
+        $routeProvider.
+            when("/aa/:orderId",{
+
+        })
+    }])
+</script>
+</body>
+</html>

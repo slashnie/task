@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>demo1</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.6/angular.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+    <input type="number" ng-model="name">
+    <span>{{name}}</span> <br>
+    <span>{{count}}</span>
+</div>
+<script>
+    var myApp = angular.module("myApp", []);
+    myApp.controller("myCtrl",function($scope){
+        $scope.name =0;
+        $scope.count = 0;
+        $scope.$watch("name", function () {
+            $scope.count++;
+        } ,true) });
+
+</script>
+</body>
+</html>

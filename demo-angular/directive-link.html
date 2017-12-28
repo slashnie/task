@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/angular.js/1.6.6/angular.js"></script>
+    <title>directive</title>
+</head>
+<body>
+    <hello name="slash"></hello>
+<script>
+    var app = angular.module("app",[]);
+    app.directive("hello",function(){
+        return{
+            restrict:"AEC",
+            replace:true,
+            template:"<h1>Hello,{{name}}!</h1>",
+            link:function(scope, elem, attrs){
+                scope.name = attrs.name;
+            }
+        }
+    });
+//    app.controller("myCtrl",function($scope){
+    //        $scope.name="slash"
+    //    });
+</script>
+</body>
+</html>

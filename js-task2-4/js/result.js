@@ -20,9 +20,11 @@ $(document).ready(function () {
 
     $("#num").text("杀手" + killer + "人" + "  " + "平民" + civilian + "人");
     if(killer_num===0){
+        $("#civilian_win").show();
        $("#words").text("太棒了！在捉鬼游戏中卧底取得游戏的最终胜利！")
     }
     if(killer_num===civilian_num){
+        $("#killer_win").show();
         $("#words").text("太棒了！你们知道么？在捉鬼游戏中只有20%的杀手取得游戏的最终胜利哦！")
 
     }

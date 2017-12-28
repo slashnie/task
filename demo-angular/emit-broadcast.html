@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>emit-broadcast</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.6/angular.js"></script>
+</head>
+<body>
+<div ng-ocntroller="parentCtrl">
+    <div ng-ocntroller=childCtrl">
+        <button ng-click="aa()">emit</button>
+    </div>
+</div>
+<script>
+    var app = angular.module("app", []);
+    app.controller("parentCtrl", function ($scope) {
+        $scope.$on("info", function (event, data) {
+            console.log(data);
+        })
+    });
+    app.controller("childCtrl", function ($scope) {
+        $scope.aa = function () {
+            $scope.$emit("info", {name: "slash", age: 24});
+        }
+
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>apply</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.6/angular.js"></script>
+</head>
+<body>
+<div ng-controller="myCtrl">
+    <button ng-click="aa()">三秒后响应</button>
+    <div>{{message}}</div>
+</div>
+<script>
+    var app = angular.module("app", []);
+    app.controller("myCtrl", function ($scope) {
+        $scope.aa = function () {
+            setTimeout(function () {
+                $scope.$apply(function(){
+                    $scope.message = "你好"
+                })
+            }, 3000)
+        }
+    })
+</script>
+</body>
+</html>

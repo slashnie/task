@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="ui.bootstrap.demo">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.6/angular.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.js"></script>
+
+    <script>
+        angular.module('ui.bootstrap.demo', ['ui.bootstrap'])
+            .controller('PaginationDemoCtrl', function ($scope) {
+            $scope.maxSize = 5;
+            $scope.totalItems = 175;
+            $scope.currentPage = 1;
+        });
+    </script>
+<style>
+    li{
+        display:inline-block !important;
+    }
+</style>
+</head>
+<body>
+<div ng-controller="PaginationDemoCtrl">
+    <uib-pagination  total-items="totalItems"
+                    ng-model="currentPage"
+                    max-size="maxSize"
+                    first-text="第一页"
+                    previous-text="上一页"
+                    next-text="下一页"
+                    last-text="最后页"
+                    boundary-links="true"
+                    boundary-link-numbers="true"></uib-pagination>
+</div>
+</body>
+</html>

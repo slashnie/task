@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-file-upload</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.6/angular.js"></script>
+    <script src="../js/ng-file-upload-all.min.js"></script>
+    <script src="../js/ng-file-upload-shim.min.js"></script>
+    <style>
+        .thumb {
+            width: 24px;
+            height: 24px;
+            float: none;
+            position: relative;
+            top: 7px;
+        }
+
+        form .progress {
+            line-height: 15px;
+        }
+
+        .progress {
+            display: inline-block;
+            width: 100px;
+            border: 3px groove #CCC;
+        }
+
+        .progress div {
+            font-size: smaller;
+            background: orange;
+            width: 0;
+        }
+    </style>
+</head>
+<body ng-app="fileUpload" ng-controller="MyCtrl">
+<!--<img ngf-src="data.file || data.defaultImage" class="img-responsive" style="width:200px; height: 200px; max-width:500px;"/>-->
+<!--<div class="button" ngf-select="" ngf-pattern="'image/*'" ngf-multiple="false" ng-model="data.file">-->
+    <!--选择文件-->
+<!--</div>-->
+<!--<button ng-click="upload()">upload</button>-->
+<form>
+    <!--<img src="{{uploadImg}}"/>-->
+    当前上传用户:<input type="text" placeholder="请输入您的名称" name="name"
+                  ng-model="username"/><div class="button" ngf-select
+                  ng-test-upload="file" name="file" ngf-pattern="'image/*" accept="image/*"
+                  ngf-max-size="20MB" ngf-min-height="100">Select</div>
+    <button type="submit" ng-click="submit()">submit</button>
+    {{fileInfo.name}}<br/> {{fileInfo.size}}
+</form>
+<script>
+    var app = angular.module('fileUpload', ['ngFileUpload']);
+    app.directive('ngTestUpload', function() {
+        return {
+            restrict: 'ACE',
+            link: function (scope, element, attr) {
+                element.on('change', function () {
+                    scope.file = this.files[0];
+                })
+            },
+            scope: {
+                file: '=ngTestUpload'
+            }
+        };
+    });
+    app.controller('MyCtrl', function($scope, Upload){
+        $scope.uploadImg = '';
+        //提交
+        $scope.submit = function () {
+            $scope.upload($scope.file);
+        };
+        $scope.upload = function (file) {
+            $scope.fileInfo = file;
+            Upload.upload({
+                url: '/carrots-admin-ajax/a/u/img/task',
+                file: file
+            }).progress(function (evt) {
+                var progressPercentage = parseInt(100.0 * evt.loaded / evt.total);
+//                console.log('progess:' + progressPercentage + '%' + evt.config.file.name);
+            }).then(
+                function successCallback(data, headers, config){
+                console.log('file' + config.file.name + 'uploaded.Response:' + data);
+                $scope.uploadImg = data;},
+                function errorCallback(data, headers, config){
+                console.log(data);
+            });
+        }
+    })
+</script>
+</body>
+</html>

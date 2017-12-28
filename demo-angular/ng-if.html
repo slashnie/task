@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/angular.js/1.6.6/angular.js"></script>
+    <title>ng-if</title>
+    <script>
+        var app = angular.module("app",[]);
+        app.controller("ctrl",function($scope){
+            $scope.state = false;
+            $scope.toggle = function(){
+                $scope.state = !$scope.state;
+            };
+            $scope.hide = function(){
+                $scope.state = !$scope.state;
+            };
+            $scope.show = function(){
+                $scope.state = !$scope.state;
+            }
+        })
+    </script>
+</head>
+<body>
+<div ng-controller="ctrl">
+    <button ng-click="toggle()">点击切换</button>
+    <div ng-if="state">ng-if</div>
+    <div ng-show="state">ng-show</div>
+</div>
+</body>
+</html>

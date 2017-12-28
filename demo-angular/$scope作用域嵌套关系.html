@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>scope</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.6/angular.js"></script>
+</head>
+<body>
+<div ng-controller="parentCtrl">
+    <div ng-controller="childCtrl">
+        <input type="text" ng-model="name">
+        <span>{{name}}</span> <br>
+        <button ng-click="aa()">aaasdasd</button>
+        <button ng-click="bb()">asdasdsa</button>
+    </div>
+</div>
+<script>
+    var app = angular.module("app", []);
+    app.controller("parentCtrl", function ($scope) {
+        $scope.bb = function () {
+            alert("parent作用域方法bb")
+        }
+    });
+    app.controller("childCtrl", function ($scope, $rootScope) {
+        $rootScope.name = "slash";
+        $rootScope.aa = function () {
+            alert("根作用域方法aa")
+        };
+    });
+</script>
+</body>
+</html>

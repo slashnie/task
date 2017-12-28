@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-class</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.6/angular.js"></script>
+    <style>
+        .gray{
+            color:white;
+            background: gray;
+        }
+        .red{
+            color:white;
+            background: red;
+        }
+        .blue{
+            color:blue;
+        }
+        .font{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body ng-controller="ctrl">
+<div ng-class="{true:'red',false:'gray'}[aa]">我是现实块</div>
+<div ng-class="{'blue':bb,'font':cc}">我是现实块</div>
+<button ng-click="toggle1()">点我切换类</button>
+<button ng-click="toggle2()">点我切换类</button>
+<button ng-click="toggle3()">点我切换类</button>
+<div ng-class="$even ? 'gray' : 'red'" ng-repeat="item in items">{{item}}</div>
+<script>
+    var app = angular.module("app",[]);
+    app.controller("ctrl",function($scope){
+        $scope.aa = true;
+        $scope.toggle1 = function(){
+            $scope.aa = ! $scope.aa;
+        };
+        $scope.toggle2 = function(){
+            $scope.bb = ! $scope.bb;
+        };
+        $scope.toggle3 = function(){
+            $scope.cc = ! $scope.cc;
+        };
+        $scope.items = [
+            111 , 222 , 333 , 444, 555
+        ];
+    });
+</script>
+</body>
+</html>

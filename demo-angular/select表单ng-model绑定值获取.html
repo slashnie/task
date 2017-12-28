@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>select表单ng-model绑定值</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.6/angular.js"></script>
+</head>
+<body ng-app="app" ng-controller="ctrl">
+<div style="text-align: center;padding:300px">
+    <select type="text" ng-model="type" ng-change="change()" style="width:100px;height:20px">
+        <option value="">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+</div>
+<script>
+    var app = angular.module("app",[]);
+    app.controller("ctrl",function($scope){
+       $scope.change = function(){
+           alert($scope.type)
+       }
+    });
+</script>
+</body>
+</html>
